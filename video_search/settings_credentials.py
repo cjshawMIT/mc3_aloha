@@ -1,0 +1,160 @@
+#
+# uncomment and complete the following to set up your server name
+#
+#SERVERNAME = ""
+
+#
+# uncomment and complete the following to set up who should get cron reports
+#
+#CRON_EMAIL = ""
+
+#
+# These are overrides to defaults set in settings.py. To keep defaults, leave
+# these values empty. To replace the defaults, uncomment the line and enter
+# your changes here rather than making the changes in settings.py.
+#
+DEBUG = True
+# TEMPLATE_DEBUG = ""
+# ADMINS = (('admin name', 'admin@admin.test'),)
+# MANAGERS = ""
+# HTTP_PORT = ""
+# HTTPD_MEDIA = ""
+# EMAIL_HOST = ""
+# EMAIL_FROM = ""
+# EMAIL_BCC = ""
+
+# EMAIL_BACKEND = ""
+# EMAIL_FILE_PATH = ""
+
+# PERSONA_EMAIL = ""
+# PERSONA_PASSWORD = ""
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
+        'NAME': 'vcb', # Or path to database file if using sqlite3.
+        'USER': 'i2002', # Not used with sqlite3.
+        'PASSWORD': 'video_search!123', # Not used with sqlite3.
+        'HOST': '', # Set to empty string for localhost. Not used with sqlite3.
+        'PORT': '', # Set to empty string for default. Not used with sqlite3.
+    }
+}
+
+# For MC3 Settings
+MC3_HOST = 'oki-dev.mit.edu'
+MC3_SERVICES = '/handcar/services/learning/'
+
+# For Amazon S3
+S3_ACCESS_KEY = 'AKIAJRHLPQBXJ34J62TQ'
+S3_SECRET_KEY = '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'
+S3_BUCKET_NAME = 'mitoeit-input'
+OUTPUT_BUCKET = 'mitoeit-output'
+TRANSCODER_ENDPOINT = 'us-east-1'
+CLOUDFRONT_SERVER = 'https://dcb8la7bjdmk9.cloudfront.net/' # for download of original mp4; links to mitoeit-input bucket
+PIPELINE_ID = '1382982432797-b08alv'
+HLS_2M = '1351620000001-200010'
+HLS_1M = '1351620000001-200030'
+HLS_400K = '1351620000001-200050'
+MP4_1080P = '1351620000001-000001'
+MP4_480P_43 = '1351620000001-000030'
+MP4_320X240 = '1351620000001-000060'
+
+# A sample logging configuration. The only tangible logging
+# performed by this configuration is to send an email to
+# the site admins on every HTTP 500 error when DEBUG=False.
+# See http://docs.djangoproject.com/en/dev/topics/logging for
+# more details on how to customize your logging configuration.
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'formatters': {
+        'verbose': {
+            'format': '%(levelname)s %(asctime)s %(module)s %(process)d %(thread)d %(message)s'
+        },
+        'simple': {
+            'format': '%(levelname)s %(message)s'
+        },
+    },
+    'filters': {
+        'require_debug_false': {
+            '()': 'django.utils.log.RequireDebugFalse'
+        }
+    },
+    'handlers': {
+        'mail_admins': {
+            'level': 'ERROR',
+            'filters': ['require_debug_false'],
+            'class': 'django.utils.log.AdminEmailHandler'
+        },
+        'custom': {
+        	'level': 'INFO',
+        	'class': 'logging.handlers.RotatingFileHandler',
+        	'filename': '/Users/cjshaw/Documents/Projects/i2002/VideoSearch/logs/vcb.log',
+        	'mode': 'a',
+        	'maxBytes': 10000000,
+        	'backupCount': 5,
+        	'formatter': 'verbose'
+        }
+    },
+    'loggers': {
+    	'': {
+    		'handlers': ['custom'],
+    		'level': 'INFO',
+    		'propagate': True,
+    	},
+        'django.request': {
+            'handlers': ['mail_admins'],
+            'level': 'ERROR',
+            'propagate': True,
+        }
+    }
+}
+
+# Absolute filesystem path to the directory that will hold user-uploaded files.
+# Example: "/home/media/media.lawrence.com/media/"
+MEDIA_ROOT = '/Users/cjshaw/Documents/Projects/i2002/VideoSearch/media/'
+
+# URL that handles the media served from MEDIA_ROOT. Make sure to use a
+# trailing slash.
+# Examples: "http://media.lawrence.com/media/", "http://example.com/media/"
+MEDIA_URL = '/media/'
+
+# Absolute path to the directory static files should be collected to.
+# Don't put anything in this directory yourself; store your static files
+# in apps' "static/" subdirectories and in STATICFILES_DIRS.
+# Example: "/home/media/media.lawrence.com/static/"
+STATIC_ROOT = '/Users/cjshaw/Documents/Projects/i2002/VideoSearch/static/'
+
+# URL prefix for static files.
+# Example: "http://media.lawrence.com/static/"
+STATIC_URL = '/static/'
+
+CLICK_ROOT = '/Users/cjshaw/Documents/Projects/i2002/VideoSearch/clickLog/'
+
+LOGIN_URL = '/'
+
+# The Chrome Webdriver for Selenium testing
+SELENIUM_WEBDRIVER = '/Users/cjshaw/Documents/Projects/i2002/VideoSearch/functional_tests/chromedriver'
+
+# For loading and using the mc3-learning-adater-py
+MANAGER_MODULE = 'mc3_learning_adapter_py.managers'
+
+
+# Hosts/domain names that are valid for this site; required if DEBUG is False
+# See https://docs.djangoproject.com/en/1.5/ref/settings/#allowed-hosts
+ALLOWED_HOSTS = ['127.0.0.1']
+
+SECURE_PATH = 'https://bazzim.mit.edu/video/vcb/touchstone'
+
+
+# For Caching
+# https://docs.djangoproject.com/en/dev/topics/cache/
+#CACHES = {
+#    'default': {
+#        'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',
+#        'LOCATION': '127.0.0.1:11211',
+#    }
+#}
+#
+#CACHE_MIDDLEWARE_ALIAS = 'default'
+#CACHE_MIDDLEWARE_SECONDS = 60 * 10

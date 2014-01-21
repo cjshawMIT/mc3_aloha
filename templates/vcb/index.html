@@ -1,0 +1,108 @@
+{% extends 'vcb/base.html' %}
+
+{% block title %}OEIT Video Concept Browser{% endblock %}
+
+{% block content %}
+    <div id="main" class="container-fluid">
+        <div id="header" class="text-center row">
+            <div class="span12 well well-small ">
+                <h1 class="">OEIT Video Concept Browser</h1>
+            </div>
+        </div>
+        <div id="tech_warning" class="text-center row">
+            <div class="offset4 span4">
+                <p class="text_bold red">Please note that this website is only compatible with the latest versions of FF / Chrome / Safari on Mac OS or FF / Chrome on Windows. It has not been tested on other combinations.
+                </p>
+            </div>
+        </div>
+        <div id="login_container" class="row">
+            <div class="offset4 span4" id="login_tabs">
+                <ul>
+                    <li><a href='#touchstone_div'>Touchstone</a></li>
+                    <li><a href='#email_div'>Login with Email</a></li>
+                </ul>
+                <div id="touchstone_div" class="box">
+                    <div class="box-content text-center">
+                        <form action="{% url 'vcb:touchstone:index' %}" method="GET" enctype="multipart/form-data" class="form-signin">
+                            {% csrf_token %}
+                            <input type="hidden" name="next" value="{{ next }}"/>
+                            <button id="touchstonelogin" class="btn btn-large btn-primary touchstone-login" type="submit">Touchstone Login</button>
+                        </form>
+                    </div>
+                </div>
+                <div id="email_div" class="box">
+                    <div class="row reset_left text-center">
+                        <form action="{% url 'vcb:login_page' %}" method="POST" enctype="multipart/form-data" class="form-signin">
+                            {% csrf_token %}
+                            <h2 class="form-signin-heading" id="login_heading">Login</h2>
+                            <input type="text" class="input-block-level" name="username" placeholder="E-mail">
+                            <input type="password" class="input-block-level" name="password" placeholder="Password">
+                            <input type="hidden" name="next" value="{{ next }}"/>
+                            <button id="login" class="btn btn-large btn-primary" type="submit">Sign in</button>
+                        </form>
+                    </div>
+                    <div class="row reset_left text-center">
+                        <div class="">
+                            <a href="{% url 'vcb:register' %}" id="register_link">Register</a> or
+                            <form action="{% url 'vcb:touchstone:index' %}" method="GET" enctype="multipart/form-data" id="touchstone_link_form">
+                                {% csrf_token %}
+                                <input type="hidden" name="next" value="{{ next }}"/>
+                                <a href="#" id="touchstone_link">Login via MIT Touchstone</a>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="status" class="">
+    </div>
+    <div class="container-fluid">
+        <div class="row text-center">
+            <div class="offset4 span4">
+                <p class="logintxt red"> {{ state }} </p>
+            </div>
+        </div>
+    </div>
+    <div id="tos_pp" class="container-fluid">
+        <div class="row text-center">
+            <div class="offset4 span4">
+                <p>
+                    Use of this site means that you agree to the
+                    <a href="{% url 'vcb:tos' %}" target="_blank">Terms of Service</a> and
+                    <a href="{% url 'vcb:privacy' %}" target="_blank">Privacy Policy</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div id="footer" class="container-fluid">
+        <div class="row text-center">
+            <div class="offset4 span4">
+              <p>Application development and website support provided by</p>
+              <p>the <a href="http://oeit.mit.edu">MIT Office of Educational Innovation and Technology (OEIT).</a></p>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block extra_scripts %}
+    <script>
+        $(document).ready(function() {
+            var state = '{{ state }}';
+            if (state != '') {
+                if (state.indexOf('Touchstone') >= 0) {
+                    $('#login_tabs').tabs('option','active',0);
+                } else {
+                    $('#login_tabs').tabs('option','active',1);
+                }
+            }
+
+            $(document).on('click', '#touchstone_link', function() {
+                $(this).parent().submit();
+            });
+        });
+    </script>
+{% endblock %}

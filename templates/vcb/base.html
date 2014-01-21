@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang='en' xmlns="http://www.w3.org/1999/xhtml">
+<!--
+Thank you to the other open-source software packages used. Apologies for any I accidentally missed - please let me know and I can update this list:
+  - D3.js
+  - Bootstrap
+  - jQuery
+  - jQuery UI
+  - Spin.js
+  - Typeahead
+  - Django
+  - Django Debug Toolbar
+  - Python
+  - lscache
+  - jQuery Reveal
+  - Bootbox
+  - Selenium
+  - s3upload.js
+  - python-dateutil
+  - jQuery BlockUI
+  - jQuery Nested Sortable
+  - Font Awesome
+  - jQuery context menu
+  - Charisma template for Bootstrap
+--> 
+<head>
+    <script src="//cdn.optimizely.com/js/554492240.js"></script>
+    <meta charset="utf-8">
+    <title>{% block title %} {% endblock %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Video Concept Browser">
+    <meta name="author" content="MIT OEIT">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+
+    {% load i18n %}
+    {% load static %}
+
+    <link rel="stylesheet" href="{{STATIC_URL}}css/bootstrap.min.css" />
+    <link rel="stylesheet" href="{{STATIC_URL}}css/bootstrap-cerulean.css" />
+    <link rel='stylesheet' href='{{STATIC_URL}}css/reveal.css' />
+<!--Put these jQuery stylesheets here to override the bootstrap ones...
+need to do this so that the search menu results don't get overlaid on top of the input box-->
+    <link rel="stylesheet" href="{{STATIC_URL}}css/jquery.ui.1.10.3.theme.smoothness.css" />
+    <link rel="stylesheet" href="{{STATIC_URL}}css/bootstrap-responsive.min.css"/>
+    <link rel="stylesheet" href="{{STATIC_URL}}css/jquery-ui-1.9.2.custom.css"/>
+    <link rel="stylesheet" href="{{STATIC_URL}}css/font-awesome.css" />
+    <link rel="stylesheet" href="{{STATIC_URL}}css/vcb_style.css" />
+    <script>
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount','UA-9353349-14']);
+        _gaq.push(['_setDomainName', 'mit.edu']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+        function trackVideoPlayed(player) {
+            _gaq.push(["_trackEvent", "Videos", "Played", videoName(player)]);
+        }
+
+        function trackVideoPaused(player) {
+            _gaq.push(["_trackEvent", "Videos", "Paused", videoName(player)]);
+        }
+
+        function trackVideoEnd(player) {
+            _gaq.push(["_trackEvent", "Videos", "Ended", videoName(player)]);
+        }
+
+        function videoName(player) {
+            return player.videoElement().getAttribute('title');
+        }
+    </script>
+    {% block head_scripts %}{% endblock %}
+</head>
+<body>
+    {% block content %} {% endblock %}
+
+    <script type="text/javascript" src="{{STATIC_URL}}js/lib/jquery.1.8.3.min.js"></script>
+    <script type="text/javascript" src="{{STATIC_URL}}js/lib/jquery.ui.1.10.3.min.js"></script>
+    <script type="text/javascript" src="{{STATIC_URL}}js/lib/jquery.validate.js"></script>
+    <script type="text/javascript" src="{{STATIC_URL}}js/lib/lscache.js"></script>
+    <script type="text/javascript" src="{{STATIC_URL}}js/controllers/index.js"></script>
+    <script type="text/javascript" src="{{STATIC_URL}}js/bindings/index.js"></script>
+
+    <!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="{{STATIC_URL}}js/lib/html5.shim.js"></script>
+    <![endif]-->
+    {% block extra_scripts %} {% endblock %}
+</body>
+</html>

@@ -1,0 +1,121 @@
+{% extends 'vcb/base.html' %}
+
+{% block title %}Register{% endblock %}
+
+{% block content %}
+	<div class="container">
+		<div class="row">
+			<div class="span6 offset3">
+				<h1><legend>Sign Up For Access</legend></h1>
+				<div class="well">
+			      <form id="signup" class="form-horizontal" method="post" action="{% url 'vcb:success' %}" enctype="multipart/form-data">
+			      	{% csrf_token %}
+					<legend>Sign Up</legend>
+					{% if error %}
+					    <label class="error">{{ error }}</label>
+					{% endif %}
+					<div class="control-group">
+				        <label class="control-label">First Name</label>
+						<div class="controls">
+						    <div class="input-prepend">
+							<span class="add-on"><i class="icon-user"></i></span>
+								<input type="text" class="input-xlarge" id="fname" name="fname" placeholder="First Name">
+							</div>
+						</div>
+					</div>
+					<div class="control-group ">
+				        <label class="control-label">Last Name</label>
+						<div class="controls">
+						    <div class="input-prepend">
+							<span class="add-on"><i class="icon-user"></i></span>
+								<input type="text" class="input-xlarge" id="lname" name="lname" placeholder="Last Name">
+							</div>
+						</div>
+					</div>
+					<div class="control-group">
+				        <label class="control-label">Email*</label>
+						<div class="controls">
+						    <div class="input-prepend">
+							<span class="add-on"><i class="icon-envelope"></i></span>
+								<input type="text" class="input-xlarge" id="email" name="email" placeholder="Email">
+							</div>
+						</div>
+					</div>
+					<div class="control-group">
+				        <label class="control-label">Available Classes*</label>
+						<div class="controls">
+						    <table class="table">
+						        <thead>
+						            <tr>
+						                <th class="span4">
+						                    Class Name / Number
+						                </th>
+						                <th class="span2">
+						                    Semester
+						                </th>
+						                <th class="span1">
+						                    Access Code
+						                </th>
+						            </tr>
+						        </thead>
+						        <tbody>
+        							{% for field in class_choices %}
+        							<tr>
+        							    <td class="span4">
+            								{{ field.class_number }} - {{ field.class_name }}
+            							</td>
+            							<td class="span2">
+            							    {{ field.semester }}
+            							</td>
+            							<td class="span1">
+        	    							<input type="text" class="span1 class_code" name="class_code{{ field.id }}" maxlength="9"> 
+        	    						</td>
+        	    					</tr>
+        							{% endfor %}
+        						</tbody>
+        					</table>
+						</div>
+					</div>
+					<div class="control-group">
+				        <label class="control-label">Password*</label>
+						<div class="controls">
+						    <div class="input-prepend">
+							<span class="add-on"><i class="icon-lock"></i></span>
+								<input type="Password" id="passwd" class="input-xlarge" name="passwd" placeholder="Password">
+							</div>
+						</div>
+					</div>
+					<div class="control-group">
+				        <label class="control-label">Confirm Password*</label>
+						<div class="controls">
+						    <div class="input-prepend">
+							<span class="add-on"><i class="icon-lock"></i></span>
+								<input type="Password" id="conpasswd" class="input-xlarge" name="conpasswd" placeholder="Re-enter Password">
+							</div>
+						</div>
+					</div>
+					<div class="control-group">
+					    <label class="control-label">I agree to this site's 
+					        <a href="{% url 'vcb:tos' %}" target="_blank">Terms of Service</a> and 
+					        <a href="{% url 'vcb:privacy' %}" target="_blank">Privacy Policy</a>
+					    </label>
+						<div class="controls">
+						    <div class="input-prepend">
+								<input type="checkbox" id="tos" class="input-xlarge" name="tos">
+							</div>
+						</div>
+					</div>
+					<div class="control-group">
+					<label class="control-label"></label>
+				      <div class="controls">
+				       <button type="submit" class="btn btn-success" >Create My Account</button>
+				      </div>
+					</div>
+					<label class="control-label">* Required</label>
+				  </form>
+				</div>
+		   </div>
+		</div>
+	</div>
+
+{% endblock %}
