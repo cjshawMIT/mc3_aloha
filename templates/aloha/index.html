@@ -1,0 +1,61 @@
+{% extends 'aloha/base.html' %}
+
+{% block title %}MC3 Aloha Editor{% endblock %}
+
+{% block content %}
+    <div id="main" class="container">
+        <div id="tech_warning" class="text-center row">
+            <div class="col-lg-offset-2 col-lg-8 col-md-offset-0 col-md-12 col-sm-offset-0 col-sm-12 col-xs-offset-0 col-xs-12">
+                <p class="text_bold red">Please note that this website is only compatible with the latest versions of FF / Chrome / Safari on Mac OS or FF / Chrome on Windows. It has not been tested on other combinations.
+                </p>
+            </div>
+        </div>
+        <div id="login_container" class="row">
+            <div id="login_box" class="col-lg-offset-4 col-lg-4 col-md-offset-4 col-md-4 col-sm-offset-4 col-sm-4 col-xs-offset-2 col-xs-6">
+                <form id="login" action="{% url 'aloha:login_page' %}" method="POST" enctype="multipart/form-data" class="form-horizontal" role="form">
+                    {% csrf_token %}
+                    <h4 class="text-center" id="login_heading">Login</h4>
+                    <div class="form-group">
+                        <label for="email" class="col-sm-1 control-label">
+                            <i class="fa fa-envelope"></i>
+                        </label>
+                        <div class="col-sm-11">
+                            <input type="text" class="form-control" id="email" name="email" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="col-sm-1 control-label">
+                            <i class="fa fa-lock"></i>
+                        </label>
+                        <div class="col-sm-11">
+                            <input type="password" class="form-control" id="passwd" name="passwd" placeholder="Password">
+                        </div>
+                    </div>
+                    <input type="hidden" name="next" value="{{ next }}"/>
+                    <button id="login_btn" class="btn btn-large btn-primary" type="submit">Sign in</button>
+                </form>
+            </div>
+        </div>
+        <div class="row wrapper">
+            <div class="col-lg-offset-4 col-lg-4 col-md-offset-4 col-md-4 col-sm-offset-4 col-sm-4 col-xs-offset-2 col-sm-6">
+                <a href="{% url 'aloha:register' %}" id="register_link">Register</a>
+            </div>
+        </div>
+    </div>
+    <div id="tos_pp" class="container">
+        <div class="row text-center">
+            <div class="offset4 span4">
+                <p>
+                    Use of this site means that you agree to the
+                    <a href="{% url 'aloha:tos' %}" target="_blank">Terms of Service</a> and
+                    <a href="{% url 'aloha:privacy' %}" target="_blank">Privacy Policy</a>.
+                </p>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block extra_scripts %}
+    <script type="text/javascript" src="{{STATIC_URL}}js/lib/jquery.validate.js"></script>
+    <script type="text/javascript" src="{{STATIC_URL}}js/bindings/index.js"></script>
+{% endblock %}

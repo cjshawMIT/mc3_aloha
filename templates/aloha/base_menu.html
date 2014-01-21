@@ -1,0 +1,15 @@
+{% extends 'aloha/base.html' %}
+
+{% block menu %}
+    <li class="active">
+        <a href="{% url 'aloha:dashboard' %}">
+            <i class="fa fa-dashboard"></i>
+            Dashboard
+        </a>
+    </li>
+{% endblock %}
+
+{% block data_script %}
+    <script src="{{ STATIC_URL }}js/lib/jquery.blockui.js"></script>
+    <script src="{{ STATIC_URL }}js/lib/csrf.js"></script>
+{% endblock %}

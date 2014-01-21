@@ -1,0 +1,29 @@
+ body { 
+ 	/* 60px to make the container go all the way to the bottom of the topbar */
+ 	/*padding-top: 60px;*/
+	background-color: transparent;
+	background-repeat: repeat;
+	background-position: 90% 30%;
+ 	color: white;
+	text-shadow: 1px 1px 1px #2d2d2e;
+ }
+ 
+ .hero-unit { 
+ 	background-image: url(../img/black-op20.png); 
+	background-color: transparent;
+	background-repeat: repeat;   
+	padding-bottom: 30px;
+}
+ 
+ .hero-unit h1 {
+ 	color: white;
+ 	font-size: 70px;
+ 	text-shadow: 3px 3px 2px #2D2D2E;
+ }
+ 
+.hero-unit p {
+	color: white;
+	font-size: 20px;
+	text-shadow: 1px 1px 1px #2d2d2e;
+ /*	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25); */
+}

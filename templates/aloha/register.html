@@ -1,0 +1,79 @@
+{% extends 'aloha/base.html' %}
+
+{% block title %}Register{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-offset-3 col-lg-5 col-md-offset-3 col-md-5 col-sm-offset-3 col-sm-5 col-xs-offset-2 col-xs-6">
+                <form id="signup" role="form" class="form-horizontal" method="post" action="{% url 'aloha:create_user' %}" enctype="multipart/form-data">
+                    <h4>Sign Up For Access</h4>
+                    {% csrf_token %}
+                    {% if error %}
+                        <label class="error red">{{ error }}</label>
+                    {% endif %}
+                    <div class="form-group">
+                        <label for="fname" class="col-sm-2 control-label">
+                            <i class="fa fa-user"></i>
+                        </label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="fname" name="fname" placeholder="First Name">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="lname" class="col-sm-2 control-label">
+                            <i class="fa fa-user"></i>
+                        </label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="lname" name="lname" placeholder="Last Name">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="col-sm-2 control-label">
+                            <i class="fa fa-envelope"></i><sup>*</sup>
+                        </label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="email" name="email" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="passwd" class="col-sm-2 control-label">
+                            <i class="fa fa-lock"></i><sup>*</sup>
+                        </label>
+                        <div class="col-sm-10">
+                            <input type="password" class="form-control" id="passwd" name="passwd" placeholder="Password">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="conpasswd" class="col-sm-2 control-label">
+                            <i class="fa fa-lock"></i><sup>*</sup>
+                        </label>
+                        <div class="col-sm-10">
+                            <input type="password" class="form-control" id="conpasswd" name="conpasswd" placeholder="Re-enter Password">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="tos" class="col-sm-10">I agree to this site's
+                            <a href="{% url 'aloha:tos' %}" target="_blank">Terms of Service</a> and
+                            <a href="{% url 'aloha:privacy' %}" target="_blank">Privacy Policy</a>.<sup>*</sup>
+                        </label>
+                        <div class="col-sm-2">
+                            <input type="checkbox" id="tos" class="form-control" name="tos">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-12">
+                           <button type="submit" class="btn btn-lg btn-success" >Create My Account</button>
+                        </div>
+                    </div>
+                    <label><sup>*</sup> Required</label>
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block extra_scripts %}
+    <script type="text/javascript" src="{{STATIC_URL}}js/lib/jquery.validate.js"></script>
+    <script type="text/javascript" src="{{STATIC_URL}}js/bindings/register.js"></script>
+{% endblock %}

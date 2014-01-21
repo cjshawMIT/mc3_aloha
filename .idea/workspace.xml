@@ -1,0 +1,1212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="42aeaef9-b153-44a7-a98b-619955900ba9" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aloha/static/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aloha/static/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aloha/static/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aloha/static/css/aloha.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/aloha/base.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/aloha/base_menu.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aloha/static/css/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aloha/static/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aloha/static/js/lib/jquery-2.0.3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aloha/static/js/lib/jquery-ui-1.10.4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aloha/static/css/mc3.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aloha/static/js/controllers/mc3_auth_utils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aloha/static/js/bindings/register.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/copy_utils.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/fixtures/bazzim_data.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/fixtures/clean_data_oki_dev_140117.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/fixtures/localhost_data.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/fixtures/vcb_localhost.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/fixtures/vcb_oki_dev.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/migrations/0001_initial.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/migrations/0002_auto__chg_field_mc3objectives_mc3_id.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/migrations/0003_auto__del_field_classsessions_session_semester__add_field_classes_seme.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/migrations/0004_auto__add_unique_classes_access_code__chg_field_mc3objectives_name.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/migrations/0005_auto__add_field_classsessions_is_active__add_field_mc3activities_is_ac.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/migrations/0006_auto__add_field_mc3activities_sequence_order.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/migrations/0007_auto__add_links__del_field_mc3activities_video_url.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/migrations/0008_auto__add_field_links_label.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/migrations/0009_auto__add_field_links_resolution_order.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/migrations/0010_auto__add_clicks.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/migrations/0011_auto__add_field_mc3objectives_parent.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/migrations/0012_auto__del_field_mc3objectives_parent.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/migrations/0013_auto__del_field_links_mimetype__add_field_links_vtype.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/migrations/0014_auto__add_contacts__add_field_classes_allow_download__add_field_classe.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/migrations/0015_auto__add_field_contacts_role.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/migrations/0016_auto__add_transcripts__add_field_classes_allow_transcripts.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/migrations/0017_auto__add_field_transcripts_language.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/convert.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/create_pipelines.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/css/bootstrap-cerulean.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/css/bootstrap-responsive.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/css/bootstrap-responsive.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/css/bootstrap-select.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/css/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/css/jquery-ui-1.9.2.custom.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/css/jquery.contextMenu.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/css/jquery.dataTables.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/css/jquery.powertip.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/css/opa-icons.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/css/reveal.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/css/select2-spinner.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/css/select2.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/css/select2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/css/select2x2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/css/typeahead.js-bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/css/uploadify.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/css/vcb_style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/ajax-loaders/ajax-loader-1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/ajax-loaders/ajax-loader-2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/ajax-loaders/ajax-loader-3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/ajax-loaders/ajax-loader-4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/ajax-loaders/ajax-loader-5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/ajax-loaders/ajax-loader-6.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/ajax-loaders/ajax-loader-7.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/ajax-loaders/ajax-loader-8.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/arrows-active.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/arrows-normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/bg-input-focus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/bg-input.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/border.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/buttons.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/cancel-off.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/cancel-on.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/chosen-sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/controls.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/crop.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/dialogs.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/error_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/footer.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/.tmb/l1_MS5qcGc1344290228.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/.tmb/l1_MTAuanBn1344290212.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/.tmb/l1_MTEuanBn1344290212.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/.tmb/l1_MTIuanBn1344290216.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/.tmb/l1_MTMuanBn1344290218.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/.tmb/l1_MTQuanBn1344290218.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/.tmb/l1_MTUuanBn1344290220.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/.tmb/l1_MTYuanBn1344290222.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/.tmb/l1_MTcuanBn1344290224.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/.tmb/l1_MTguanBn1344290226.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/.tmb/l1_MTkuanBn1344290228.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/.tmb/l1_Mi5qcGc1344290242.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/.tmb/l1_MjAuanBn1344290232.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/.tmb/l1_MjEuanBn1344290232.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/.tmb/l1_MjIuanBn1344290236.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/.tmb/l1_MjMuanBn1344290238.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/.tmb/l1_MjQuanBn1344290240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/.tmb/l1_My5qcGc1344290244.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/.tmb/l1_NC5qcGc1344290246.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/.tmb/l1_NS5qcGc1344290246.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/.tmb/l1_Ni5qcGc1344290248.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/.tmb/l1_Ny5qcGc1344290252.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/.tmb/l1_OC5qcGc1344290254.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/.tmb/l1_OS5qcGc1344290254.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/14.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/15.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/16.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/17.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/18.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/19.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/20.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/21.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/22.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/23.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/24.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/thumbs/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/thumbs/10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/thumbs/11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/thumbs/12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/thumbs/13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/thumbs/14.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/thumbs/15.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/thumbs/16.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/thumbs/17.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/thumbs/18.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/thumbs/19.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/thumbs/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/thumbs/20.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/thumbs/21.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/thumbs/22.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/thumbs/23.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/thumbs/24.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/thumbs/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/thumbs/4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/thumbs/5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/thumbs/6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/thumbs/7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/thumbs/8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/gallery/thumbs/9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/glyphicons-halflings-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/glyphicons-halflings.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/header.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/icons-big.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/icons-small.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/iphone-style-checkboxes/off.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/iphone-style-checkboxes/on.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/iphone-style-checkboxes/slider.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/iphone-style-checkboxes/slider_center.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/iphone-style-checkboxes/slider_left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/iphone-style-checkboxes/slider_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/loading_background.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/logo20.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/modal-gloss.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/navbar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/oeit-favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/oeit-favicon2.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/oeit-o-blue-white-favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/oeit-o-blue-white-favicon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/oeit-o-blue-white-favicon_th.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/oeitlogo-home.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/opa-icons-black16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/opa-icons-black32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/opa-icons-blue16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/opa-icons-blue32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/opa-icons-color16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/opa-icons-color32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/opa-icons-darkgray16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/opa-icons-darkgray32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/opa-icons-gray16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/opa-icons-gray32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/opa-icons-green16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/opa-icons-green32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/opa-icons-orange16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/opa-icons-orange32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/opa-icons-red16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/opa-icons-red32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/opa-icons-white16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/opa-icons-white32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/progress.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/qrcode.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/qrcode136.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/quicklook-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/quicklook-icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/resize.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/spinner-mini.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/star-half.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/star-off.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/star-on.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/thumb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/toolbar.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/toolbar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/ui-anim_basic_16x16.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/ui-bg_flat_0_aaaaaa_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/ui-bg_flat_75_ffffff_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/ui-bg_glass_55_fbf9ee_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/ui-bg_glass_75_dadada_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/ui-bg_glass_75_e6e6e6_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/ui-bg_glass_75_ffffff_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/ui-bg_glass_95_fef1ec_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/ui-bg_inset-soft_95_fef1ec_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/ui-icons_222222_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/ui-icons_2e83ff_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/ui-icons_454545_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/ui-icons_888888_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/ui-icons_cd0a0a_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/ui-icons_f6cf3b_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/upload_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/img/uploadify-cancel.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/js/bindings/concept_tree.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/js/bindings/vcb-navmenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/js/bindings/vcb_admin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/js/controllers/click_log.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/js/controllers/concept_tree.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/js/controllers/dashboard.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/js/controllers/data_tables.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/js/controllers/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/js/controllers/nested_sortable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/js/controllers/storage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/js/controllers/vcb-admin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/js/controllers/vcb_navmenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/js/controllers/vcb_utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/js/controllers/video_player.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/js/lib/bootbox.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/js/lib/bootstrap-select.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/js/lib/chart_resize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/js/lib/d3.v3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/js/lib/d3.v3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/js/lib/excanvas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/js/lib/jquery.1.8.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/js/lib/jquery.blockui.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/js/lib/jquery.combobox.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/js/lib/jquery.contextMenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/js/lib/jquery.dataTables.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/js/lib/jquery.form.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/js/lib/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/js/lib/jquery.mjs.nestedSortable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/js/lib/jquery.powertip.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/js/lib/jquery.reveal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/js/lib/jquery.ui.1.10.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/js/lib/jquery.ui.touch-punch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/js/lib/jwplayer/README.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/js/lib/jwplayer/jwplayer.flash.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/js/lib/jwplayer/jwplayer.html5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/js/lib/jwplayer/jwplayer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/js/lib/lodash.1.1.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/js/lib/lscache.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/js/lib/s3upload.custom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/js/lib/select2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/js/lib/smplayer.custom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/js/lib/spin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/js/lib/sublime.bazzim.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/js/lib/sublime.oeit-vcb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/js/lib/sublime.oki-dev.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/js/lib/sublime.oki-dev.js.backup" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/js/lib/webvtt_parser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/lectures/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/lectures/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/lectures/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/lectures/LICENSE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/lectures/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/lectures/apple-touch-icon-114x114-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/lectures/apple-touch-icon-144x144-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/lectures/apple-touch-icon-57x57-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/lectures/apple-touch-icon-72x72-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/lectures/apple-touch-icon-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/lectures/apple-touch-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/lectures/crossdomain.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/lectures/css/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/lectures/css/normalize.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/lectures/doc/TOC.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/lectures/doc/crossdomain.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/lectures/doc/css.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/lectures/doc/extend.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/lectures/doc/faq.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/lectures/doc/htaccess.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/lectures/doc/html.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/lectures/doc/js.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/lectures/doc/misc.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/lectures/doc/usage.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/lectures/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/lectures/files/2.002-spring2013-lecture-020613.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/lectures/files/2.002-spring2013-lecture-021913.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/lectures/files/2.002-spring2013-lecture-022013.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/lectures/files/2.002-spring2013-lecture-022513.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/lectures/files/2.002-spring2013-lecture-022713.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/lectures/files/2.002-spring2013-lecture-040113.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/lectures/files/2.002-spring2013-lecture-040313.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/lectures/files/2.002-spring2013-lecture-040813.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/lectures/files/2.002-spring2013-lecture-TBD.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/lectures/humans.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/lectures/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/lectures/js/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/lectures/js/plugins.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/lectures/js/vendor/jquery-1.9.0.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/lectures/js/vendor/modernizr-2.6.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/lectures/robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/virtualta/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/virtualta/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/virtualta/LICENSE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/virtualta/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/virtualta/apple-touch-icon-114x114-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/virtualta/apple-touch-icon-144x144-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/virtualta/apple-touch-icon-57x57-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/virtualta/apple-touch-icon-72x72-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/virtualta/apple-touch-icon-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/virtualta/apple-touch-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/virtualta/crossdomain.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/virtualta/css/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/virtualta/css/normalize.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/virtualta/doc/TOC.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/virtualta/doc/crossdomain.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/virtualta/doc/css.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/virtualta/doc/extend.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/virtualta/doc/faq.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/virtualta/doc/htaccess.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/virtualta/doc/html.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/virtualta/doc/js.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/virtualta/doc/misc.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/virtualta/doc/usage.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/virtualta/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/virtualta/files/2.002-spring2013-ps1p1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/virtualta/files/2.002-spring2013-ps1p2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/virtualta/files/2.002-spring2013-ps1p3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/virtualta/files/2.002-spring2013-ps1p6.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/virtualta/files/2.002-spring2013-ps2p3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/virtualta/files/2.002-spring2013-ps2p6.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/virtualta/files/2.002-spring2013-ps3p1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/virtualta/files/2.002-spring2013-ps3p2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/virtualta/files/2.002-spring2013-ps3p4.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/virtualta/files/2.002-spring2013-ps4p2a.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/virtualta/files/2.002-spring2013-ps4p2c.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/virtualta/files/2.002-spring2013-ps4p3b.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/virtualta/files/2.002-spring2013-ps5p2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/virtualta/files/2.002-spring2013-ps5p4.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/virtualta/files/2.002-spring2013-ps5p5c.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/virtualta/humans.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/virtualta/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/virtualta/js/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/virtualta/js/plugins.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/virtualta/js/vendor/jquery-1.9.0.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/virtualta/js/vendor/modernizr-2.6.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aloha/static/virtualta/robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/vcb/base.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/vcb/pick_classes.html" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aloha/static/css/jquery.ui.1.10.3.theme.smoothness.css" afterPath="$PROJECT_DIR$/aloha/static/css/jquery-ui-1.10.4.custom.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aloha/static/js/lib/bootbox.custom.vcb.js" afterPath="$PROJECT_DIR$/aloha/static/js/lib/bootbox.custom.aloha.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aloha/vcb_utils.py" afterPath="$PROJECT_DIR$/aloha/aloha_utils.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/vcb/dashboard.html" afterPath="$PROJECT_DIR$/templates/aloha/dashboard.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/vcb/index.html" afterPath="$PROJECT_DIR$/templates/aloha/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/vcb/privacy.html" afterPath="$PROJECT_DIR$/templates/aloha/privacy.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/vcb/register.html" afterPath="$PROJECT_DIR$/templates/aloha/register.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/vcb/tos.html" afterPath="$PROJECT_DIR$/templates/aloha/tos.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aloha/static/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/aloha/static/fonts/fontawesome-webfont.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aloha/static/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/aloha/static/fonts/fontawesome-webfont.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aloha/static/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/aloha/static/fonts/fontawesome-webfont.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aloha/admin.py" afterPath="$PROJECT_DIR$/aloha/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aloha/static/css/bootstrap.css" afterPath="$PROJECT_DIR$/aloha/static/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aloha/static/js/lib/bootstrap.min.js" afterPath="$PROJECT_DIR$/aloha/static/js/lib/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aloha/static/js/bindings/dashboard.js" afterPath="$PROJECT_DIR$/aloha/static/js/bindings/dashboard.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aloha/static/css/font-awesome.css" afterPath="$PROJECT_DIR$/aloha/static/css/font-awesome.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aloha/static/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/aloha/static/fonts/fontawesome-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aloha/static/js/bindings/index.js" afterPath="$PROJECT_DIR$/aloha/static/js/bindings/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manage.py" afterPath="$PROJECT_DIR$/manage.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aloha/models.py" afterPath="$PROJECT_DIR$/aloha/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/auth_wrapper/settings.py" afterPath="$PROJECT_DIR$/auth_wrapper/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aloha/urls.py" afterPath="$PROJECT_DIR$/aloha/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/auth_wrapper/urls.py" afterPath="$PROJECT_DIR$/auth_wrapper/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aloha/views.py" afterPath="$PROJECT_DIR$/aloha/views.py" />
+    </list>
+    <ignored path="mc3_aloha.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="mc3_aloha" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/aloha/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="68" column="88" selection-start="2799" selection-end="2799" vertical-scroll-proportion="-7.703704" vertical-offset="1016" max-vertical-offset="1494">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="aloha.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aloha/static/css/aloha.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="77" column="25" selection-start="1171" selection-end="1171" vertical-scroll-proportion="0.0" vertical-offset="1097" max-vertical-offset="1512">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mc3_auth_utils.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/aloha/static/js/controllers/mc3_auth_utils.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="50" selection-start="116" selection-end="116" vertical-scroll-proportion="0.043373495" vertical-offset="0" max-vertical-offset="415">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dashboard.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/aloha/dashboard.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="73" column="25" selection-start="2929" selection-end="2929" vertical-scroll-proportion="-6.3703704" vertical-offset="1142" max-vertical-offset="1494">
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aloha/static/css/bootstrap.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5946" column="0" selection-start="125005" selection-end="125005" vertical-scroll-proportion="0.0" vertical-offset="102437" max-vertical-offset="107136">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base_menu.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/aloha/base_menu.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="37" selection-start="158" selection-end="158" vertical-scroll-proportion="-3.3333333" vertical-offset="0" max-vertical-offset="360">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dashboard.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aloha/static/js/bindings/dashboard.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="38" selection-start="282" selection-end="285" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="288">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aloha/static/js/bindings/register.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="4" selection-start="0" selection-end="489" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="486">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/aloha/static/css/font-awesome.css" />
+        <option value="$PROJECT_DIR$/aloha/static/fonts/fontawesome-webfont.svg" />
+        <option value="$PROJECT_DIR$/aloha/urls.py" />
+        <option value="$PROJECT_DIR$/aloha/static/js/lib/jquery-2.0.3.js" />
+        <option value="$PROJECT_DIR$/aloha/static/css/mc3.css" />
+        <option value="$PROJECT_DIR$/aloha/static/js/bindings/index.js" />
+        <option value="$PROJECT_DIR$/templates/aloha/register.html" />
+        <option value="$PROJECT_DIR$/templates/aloha/base_menu.html" />
+        <option value="$PROJECT_DIR$/templates/aloha/index.html" />
+        <option value="$PROJECT_DIR$/aloha/views.py" />
+        <option value="$PROJECT_DIR$/aloha/static/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/aloha/static/css/aloha.css" />
+        <option value="$PROJECT_DIR$/templates/aloha/dashboard.html" />
+        <option value="$PROJECT_DIR$/templates/aloha/base.html" />
+        <option value="$PROJECT_DIR$/aloha/static/js/bindings/dashboard.js" />
+        <option value="$PROJECT_DIR$/aloha/static/js/controllers/mc3_auth_utils.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="16" />
+    <option name="y" value="22" />
+    <option name="width" value="1351" />
+    <option name="height" value="755" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mc3_aloha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mc3_aloha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mc3_aloha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mc3_aloha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mc3_aloha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mc3_aloha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mc3_aloha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aloha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mc3_aloha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mc3_aloha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="auth_wrapper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mc3_aloha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mc3_aloha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aloha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mc3_aloha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mc3_aloha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aloha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mc3_aloha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mc3_aloha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aloha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mc3_aloha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mc3_aloha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aloha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mc3_aloha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mc3_aloha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aloha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bindings" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mc3_aloha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mc3_aloha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aloha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mc3_aloha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mc3_aloha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aloha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mc3_aloha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mc3_aloha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aloha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migrations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="preferences.fileTypes" />
+    <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../virtual_environments/aloha/bin/python" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings />
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/aloha/static/css" />
+      <recent name="$PROJECT_DIR$/aloha/static/js/lib" />
+      <recent name="$PROJECT_DIR$/aloha/static/img" />
+      <recent name="$PROJECT_DIR$/templates" />
+      <recent name="$PROJECT_DIR$/aloha" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/aloha/static/css" />
+      <recent name="$PROJECT_DIR$/aloha/static/js/lib" />
+      <recent name="$PROJECT_DIR$/aloha/static/fonts" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Django server.mc3_aloha">
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="mc3_aloha" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="mc3_aloha" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="mc3_aloha" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="mc3_aloha" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="mc3_aloha" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="mc3_aloha" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="mc3_aloha" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="mc3_aloha" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="mc3_aloha" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="mc3_aloha" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Django server.mc3_aloha" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="42aeaef9-b153-44a7-a98b-619955900ba9" name="Default" comment="" />
+      <created>1390278189951</created>
+      <updated>1390278189951</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="16" y="22" width="1351" height="755" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24944486" sideWeight="0.67121214" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287879" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/aloha/static/js/lib/jquery-2.0.3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8822" column="15" selection-start="241923" selection-end="241923" vertical-scroll-proportion="0.60686016" vertical-offset="158350" max-vertical-offset="158814">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aloha/static/css/mc3.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="37" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aloha/static/js/bindings/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="30" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="342">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/aloha/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="4" selection-start="3964" selection-end="4048" vertical-scroll-proportion="-8.37037" vertical-offset="1160" max-vertical-offset="1512">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aloha/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="35" selection-start="1944" selection-end="1944" vertical-scroll-proportion="-6.48" vertical-offset="864" max-vertical-offset="1800">
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/aloha/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="49" selection-start="1789" selection-end="1789" vertical-scroll-proportion="1.6564417" vertical-offset="0" max-vertical-offset="1188">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aloha/static/js/bindings/register.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="4" selection-start="0" selection-end="489" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="486">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aloha/static/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5946" column="0" selection-start="125005" selection-end="125005" vertical-scroll-proportion="0.0" vertical-offset="106685" max-vertical-offset="107136">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/aloha/base_menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="37" selection-start="158" selection-end="158" vertical-scroll-proportion="-3.3333333" vertical-offset="0" max-vertical-offset="360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aloha/static/js/lib/jquery-ui-1.10.4.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270828">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aloha/static/css/aloha.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="25" selection-start="1171" selection-end="1171" vertical-scroll-proportion="0.0" vertical-offset="1097" max-vertical-offset="1512">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aloha/static/css/jquery-ui-1.10.4.custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="21312">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/aloha/dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="25" selection-start="2929" selection-end="2929" vertical-scroll-proportion="-6.3703704" vertical-offset="1142" max-vertical-offset="1494">
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/aloha/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="88" selection-start="2799" selection-end="2799" vertical-scroll-proportion="-7.703704" vertical-offset="1016" max-vertical-offset="1494">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aloha/static/js/bindings/dashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="38" selection-start="282" selection-end="285" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="288">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aloha/static/js/controllers/mc3_auth_utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="50" selection-start="116" selection-end="116" vertical-scroll-proportion="0.043373495" vertical-offset="0" max-vertical-offset="415">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
