@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42aeaef9-b153-44a7-a98b-619955900ba9" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apache/django.wsgi" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aloha/aloha_utils.py" afterPath="$PROJECT_DIR$/aloha/aloha_utils.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aloha/views.py" afterPath="$PROJECT_DIR$/aloha/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mc3_aloha.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -71,7 +67,7 @@
       <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/aloha/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="109" column="39" selection-start="3327" selection-end="3327" vertical-scroll-proportion="0.6393443" vertical-offset="1728" max-vertical-offset="2232">
+            <state line="109" column="42" selection-start="3330" selection-end="3330" vertical-scroll-proportion="0.6393443" vertical-offset="1728" max-vertical-offset="2232">
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -706,7 +702,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/aloha/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="39" selection-start="3327" selection-end="3327" vertical-scroll-proportion="0.6393443" vertical-offset="1728" max-vertical-offset="2232">
+        <state line="109" column="42" selection-start="3330" selection-end="3330" vertical-scroll-proportion="0.6393443" vertical-offset="1728" max-vertical-offset="2232">
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
