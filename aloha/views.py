@@ -2,14 +2,16 @@ import json
 import logging
 import pdb
 
-from django.shortcuts import render
 from django.contrib.auth.models import User
 from django.core.urlresolvers import reverse
+from django.shortcuts import render, render_to_response
 from django.http import HttpResponse, HttpResponseRedirect
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required, user_passes_test
 
 from .aloha_utils import *
+
+from bs4 import BeautifulSoup
 
 def create_user(request):
     if request.method == 'POST':
@@ -100,6 +102,14 @@ def register(request):
     To render the register page
     """
     return render(request, 'aloha/register.html')
+
+@login_required
+@user_passes_test(lambda u: u.is_active)
+def sandbox(request):
+    with open('./templates/sandbox/index.html') as f:
+        page = BeautifulSoup(f)
+        return HttpResponse(page.html)
+    # return render(request, 'sandbox/index.html')
 
 def tos(request):
     """

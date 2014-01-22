@@ -10,6 +10,40 @@
     <link rel="stylesheet" href="{{STATIC_URL}}css/toolbar.css" />
 {% endblock %}
 
+{% block user_toggle %}
+    <div class="navbar-header pull-right user_menu" >
+        <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" id="user_toggle">
+            <i class="fa fa-gears"></i>
+            <span class="hidden-xs"> {{ request.user.first_name }}</span>
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" role="menu" aria-labelledby="user_toggle">
+            <li><a href="profile/">
+                <i class="fa fa-user"></i>
+                <span class="hidden-xs"> Profile</span>
+            </a></li>
+            <li><a class="nav-help" href="#">
+                <i class="fa fa-info-circle"></i>
+                <span class="hidden-xs"> Help</span>
+            </a></li>
+            <li class="divider"></li>
+            <li><a href="logout_page/" class="logout">
+                <i class="fa fa-external-link"></i>
+                <span class="hidden-xs"> Logout</span>
+            </a></li>
+            {% if user.is_staff %}
+                <li class="divider"></li>
+                <li class="nav-header hidden-xs">Administrative</li>
+                <li><a class="nav-admin" href="#">
+                    <i class="fa fa-cog"></i>
+                    <span class="hidden-xs"> Create / Modify Classes</span>
+                </a></li>
+            {% endif %}
+        </ul>
+    </div>
+    <!-- user dropdown ends -->
+{% endblock %}
+
 {% block content %}
     <div id="ie6-container-wrap">
         <div id="container">
@@ -132,8 +166,10 @@
 {% endblock %}
 
 {% block extra_scripts %}
-    <script type="text/javascript" src="{{STATIC_URL}}js/lib/require.js"></script>
     <script type="text/javascript" src="{{STATIC_URL}}js/lib/jquery.center.js"></script>
+    <script type="text/javascript" src="{{STATIC_URL}}js/lib/require.js"></script>
+    <script type="text/javascript" src="{{STATIC_URL}}js/lib/bootstrap.2.2.2.js"></script>
+    <script type="text/javascript" src="{{STATIC_URL}}js/lib/jquery-ui-1.9.0.custom-aloha.js"></script>
     <script type="text/javascript"
         src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_HTMLorMML-full&amp;delayStartupUntil=configured">
     </script>
@@ -181,7 +217,7 @@
                             oer/note">
     </script>
     <script type="text/javascript">
-        var body_url = 'sandbox/index.html';
+        var body_url = '{% url 'aloha:sandbox' %}';
         var save_url = null;
     </script>
     <script type="text/javascript" src="{{STATIC_URL}}js/bindings/dashboard.js"></script>
