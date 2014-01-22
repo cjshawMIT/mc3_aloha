@@ -67,7 +67,7 @@
       <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/aloha/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="109" column="42" selection-start="3330" selection-end="3330" vertical-scroll-proportion="0.6393443" vertical-offset="1728" max-vertical-offset="2232">
+            <state line="109" column="40" selection-start="3328" selection-end="3328" vertical-scroll-proportion="0.6393443" vertical-offset="1728" max-vertical-offset="2232">
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -702,7 +702,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/aloha/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="42" selection-start="3330" selection-end="3330" vertical-scroll-proportion="0.6393443" vertical-offset="1728" max-vertical-offset="2232">
+        <state line="109" column="40" selection-start="3328" selection-end="3328" vertical-scroll-proportion="0.6393443" vertical-offset="1728" max-vertical-offset="2232">
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
