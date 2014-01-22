@@ -9,6 +9,8 @@ from django.http import HttpResponse, HttpResponseRedirect
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required, user_passes_test
 
+from .aloha_utils import *
+
 def create_user(request):
     if request.method == 'POST':
         fname = request.POST['fname']
@@ -41,6 +43,17 @@ def dashboard(request):
     """
     cur_user = request.user
     return render(request, 'aloha/dashboard.html')
+
+@login_required
+@user_passes_test(lambda u: u.is_active)
+def get_key(request):
+    key = ''
+    try:
+        key = request_key_from_handcar(request.user)
+    except Exception as ex:
+        log_error('views.get_key()', ex)
+    finally:
+        return HttpResponse(key)
 
 def index(request):
     redirect = request.GET.get('next')

@@ -1,0 +1,80 @@
+{% extends 'aloha/base_menu.html' %}
+
+{% block title %}MC3 Aloha Editor - Dashboard{% endblock %}
+
+{% block head_scripts %}
+    <link rel="stylesheet" href="{{STATIC_URL}}css/oerpub_loading.css" />
+{% endblock %}
+
+{% block user_toggle %}
+    <div class="navbar-header pull-right user_menu" >
+        <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" id="user_toggle">
+            <i class="fa fa-gears"></i>
+            <span class="hidden-xs"> {{ request.user.first_name }}</span>
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" role="menu" aria-labelledby="user_toggle">
+            <li><a href="profile/">
+                <i class="fa fa-user"></i>
+                <span class="hidden-xs"> Profile</span>
+            </a></li>
+            <li><a class="nav-help" href="#">
+                <i class="fa fa-info-circle"></i>
+                <span class="hidden-xs"> Help</span>
+            </a></li>
+            <li class="divider"></li>
+            <li><a href="logout_page/" class="logout">
+                <i class="fa fa-external-link"></i>
+                <span class="hidden-xs"> Logout</span>
+            </a></li>
+            {% if user.is_staff %}
+                <li class="divider"></li>
+                <li class="nav-header hidden-xs">Administrative</li>
+                <li><a class="nav-admin" href="#">
+                    <i class="fa fa-cog"></i>
+                    <span class="hidden-xs"> Create / Modify Classes</span>
+                </a></li>
+            {% endif %}
+        </ul>
+    </div>
+    <!-- user dropdown ends -->
+{% endblock %}
+
+
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <noscript>
+                <div class="alert alert-block col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h4 class="alert-heading">Warning!</h4>
+                    <p>You need to have <a href="http://en.wikipedia.org/wiki/JavaScript" target="_blank">JavaScript</a> enabled to use this site.</p>
+                </div>
+            </noscript>
+
+            <div id="content" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <!-- content starts -->
+                <div id="status_box" class="status_box red">
+                </div>
+
+                <div id="help_modal" title="Help" style="display:none;">
+                    <h3>About this Site</h3>
+
+                    <p>This site allows for authenticated access to MIT's <a href="http://mc3.mit.edu" target="_blank">MC3</a> service,
+                        using <a href="http://oerpub.github.io/Aloha-Editor/" target="_blank">OERPUB's version of Aloha Editor</a>.
+                    </p>
+
+                    <h3>Questions or Problems?</h3>
+
+                    <p>If you have any questions or problems with this site, please contact mc3-aloha [at] mit [dot] edu</p>
+                </div>
+            </div><!--/.fluid-container-->
+        </div>
+    </div>
+{% endblock %}
+
+{% block extra_scripts %}
+    <script type="text/javascript" src="{{STATIC_URL}}js/lib/require.js"></script>
+    <script type="text/javascript" src="{{STATIC_URL}}js/lib/oerpub_bookeditor.js"></script>
+    <script type="text/javascript" src="{{STATIC_URL}}js/controllers/mc3_auth_utils.js"></script>
+    <script type="text/javascript" src="{{STATIC_URL}}js/bindings/dashboard.js"></script>
+{% endblock %}

@@ -3,75 +3,186 @@
 {% block title %}MC3 Aloha Editor - Dashboard{% endblock %}
 
 {% block head_scripts %}
+    <link rel="stylesheet" href="{{STATIC_URL}}css/aloha.css" />
+    <link rel="stylesheet" href="{{STATIC_URL}}css/html5_metacontent.css" />
+    <link rel="stylesheet" href="{{STATIC_URL}}css/html5_content_in_oerpub.css" />
+    <link rel="stylesheet" href="{{STATIC_URL}}css/style.css" />
+    <link rel="stylesheet" href="{{STATIC_URL}}css/toolbar.css" />
 {% endblock %}
-
-{% block user_toggle %}
-    <div class="navbar-header pull-right user_menu" >
-        <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" id="user_toggle">
-            <i class="fa fa-gears"></i>
-            <span class="hidden-xs"> {{ request.user.first_name }}</span>
-            <span class="caret"></span>
-        </button>
-        <ul class="dropdown-menu" role="menu" aria-labelledby="user_toggle">
-            <li><a href="profile/">
-                <i class="fa fa-user"></i>
-                <span class="hidden-xs"> Profile</span>
-            </a></li>
-            <li><a class="nav-help" href="#">
-                <i class="fa fa-info-circle"></i>
-                <span class="hidden-xs"> Help</span>
-            </a></li>
-            <li class="divider"></li>
-            <li><a href="logout_page/" class="logout">
-                <i class="fa fa-external-link"></i>
-                <span class="hidden-xs"> Logout</span>
-            </a></li>
-            {% if user.is_staff %}
-                <li class="divider"></li>
-                <li class="nav-header hidden-xs">Administrative</li>
-                <li><a class="nav-admin" href="#">
-                    <i class="fa fa-cog"></i>
-                    <span class="hidden-xs"> Create / Modify Classes</span>
-                </a></li>
-            {% endif %}
-        </ul>
-    </div>
-    <!-- user dropdown ends -->
-{% endblock %}
-
 
 {% block content %}
-    <div class="container">
-        <div class="row">
-            <noscript>
-                <div class="alert alert-block col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <h4 class="alert-heading">Warning!</h4>
-                    <p>You need to have <a href="http://en.wikipedia.org/wiki/JavaScript" target="_blank">JavaScript</a> enabled to use this site.</p>
+    <div id="ie6-container-wrap">
+        <div id="container">
+            <!-- ================= -->
+            <!--  Toolbar Buttons  -->
+            <!-- ================= -->
+            <div class="toolbar aloha-dialog">
+                <div class="btn-toolbar">
+                  <div class="btn-group">
+                    <button class="btn action save" rel="tooltip" title="Save">Save</button>
+                  </div>
+                  <span class="separator"> </span>
+                  <div class="btn-group">
+                    <button class="btn action undo" rel="tooltip" title="Undo"><i class="icon-undo"></i></button>
+                    <button class="btn action redo" rel="tooltip" title="Redo"><i class="icon-redo"></i></button>
+                  </div>
+                  <span class="separator"> </span>
+                  <div class="btn-group headings">
+                    <button class="btn heading dropdown-toggle" data-toggle="dropdown" rel="tooltip" title="Text Heading" id="headingbutton">
+                      <span class="currentHeading">&nbsp;</span>
+                      <span class="caret"></span></button>
+                    <ul class="dropdown-menu"></ul>
+                  </div>
+                  <span class="separator"> </span>
+                  <div class="btn-group">
+                    <button class="btn action strong" rel="tooltip" title="Bold"><i class="icon-bold"></i></button>
+                    <button class="btn action emphasis" rel="tooltip" title="Italics"><i class="icon-italic"></i></button>
+                    <button class="btn action underline" rel="tooltip" title="Underline"><i class="icon-underline"></i></button>
+                    <button class="btn action  superscript" rel="tooltip" title="Superscript"><i class="icon-superscript"></i></button>
+                    <button class="btn action subscript" rel="tooltip" title="Subscript"><i class="icon-subscript"></i></button>
+                  </div>
+                  <span class="separator"> </span>
+                  <div class="btn-group">
+                    <button class="btn action insertLink" rel="tooltip" title="Insert Link"><i class="icon-link-insert"></i></button>
+                    <!-- <button class="btn action changeHeading" data-tagname="pre" rel="tooltip" title="Code">Code</button> -->
+                  </div>
+                  <span class="separator"> </span>
+                  <div class="btn-group">
+                    <button class="btn action unorderedList" rel="tooltip" title="Insert Unordered List"><i class="icon-unordered-list"></i></button>
+                    <button class="btn action orderedList" rel="tooltip" title="Insert Ordered List"><i class="icon-ordered-list"></i></button>
+                    <button class="btn action indentList" rel="tooltip" title="Indent list item (move right)"><i class="icon-indent-list"></i></button>
+                    <button class="btn action outdentList" rel="tooltip" title="Unindent list item (move left)"><i class="icon-outdent-list"></i></button>
+                  </div>
+                  <span class="separator"> </span>
+                  <div class="btn-group">
+                    <button class="btn action insertImage-oer" rel="tooltip" title="Insert Image"><i class="icon-image-insert"></i></button>
+                    <!--<button class="btn action insertVideo-oer" rel="tooltip" title="Insert Video"><i class="icon-image-insert"></i></button>-->
+                    <button class="btn action createTable" rel="tooltip" title="Create Table"><i class="icon-table-insert"></i></button>
+                    <button class="btn dropdown-toggle" data-toggle="dropdown" rel="tooltip" title="Table Operations">
+                      <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a href="#" class="action addrowbefore">Add Row Before</a></li>
+                      <li><a href="#" class="action addrowafter">Add Row After</a></li>
+                      <li><a href="#" class="action addcolumnbefore">Add Column Before</a></li>
+                      <li><a href="#" class="action addcolumnafter">Add Column After</a></li>
+                      <li><a href="#" class="action addheaderrow">Add Header Row</a></li>
+                      <li><a href="#" class="action deleterow">Delete Row</a></li>
+                      <li><a href="#" class="action deletecolumn">Delete Column</a></li>
+                      <li><a href="#" class="action deletetable">Delete Table</a></li>
+                    </ul>
+                    <button class="btn action insertMath" rel="tooltip" title="Insert Math"><i class="icon-math-insert"></i></button>
+                  </div>
+
+                  <span class="separator"></span>
+                  <div class="btn-group">
+                    <button class="btn btn-text dropdown-toggle" data-toggle="dropdown" rel="tooltip" title="Add a new...">
+                      Add a new...
+                      <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a href="#" class="action insertNote">Note to Reader</a></li>
+                      <li><a href="#" class="action insertExample">Example</a></li>
+                      <li><a href="#" class="action insertExercise">Exercise</a></li>
+                      <li><a href="#" class="action insertQuotation">Quotation</a></li>
+                      <li><a href="#" class="action insertEquation">Equation</a></li>
+                    </ul>
+                  </div>
+                  <div class="btn-group">
+                    <button class="btn action paste" rel="tooltip" title="paste">Paste</button>
+                  </div>
                 </div>
-            </noscript>
 
-            <div id="content" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <!-- content starts -->
-                <div id="status_box" class="status_box red">
+                <div style="margin-top: 20px; width: 200px;">
+                    <h4>Drag to add a new ...</h4>
+
+                    <div class="semantic-drag-source">
+                        <div class="note">
+                            <div class="title"></div>
+                        </div>
+
+                        <div class="example">
+                            <div class="title"></div>
+                        </div>
+
+                        <div class="exercise">
+                            <div class="problem"></div>
+                        </div>
+
+                        <blockquote class="quote">
+                        </blockquote>
+
+                        <div class="equation">
+                        </div>
+                    </div>
+
                 </div>
+            </div><!-- / ".toolbar" -->
 
-                <div id="help_modal" title="Help" style="display:none;">
-                    <h3>About this Site</h3>
-
-                    <p>This site allows for authenticated access to MIT's <a href="http://mc3.mit.edu" target="_blank">MC3</a> service,
-                        using <a href="http://oerpub.github.io/Aloha-Editor/" target="_blank">OERPUB's version of Aloha Editor</a>.
-                    </p>
-
-                    <h3>Questions or Problems?</h3>
-
-                    <p>If you have any questions or problems with this site, please contact mc3-aloha [at] mit [dot] edu</p>
+            <div id="content">
+                <div id="artboard">
+                    <div id="statusmessage"></div>
+                    <div id="editor">
+                        <div id="canvas" class="aloha-root-editable" style="margin-left: 200px;"></div>
+                    </div>
                 </div>
-            </div><!--/.fluid-container-->
+            </div>
         </div>
     </div>
 {% endblock %}
 
 {% block extra_scripts %}
-    <script type="text/javascript" src="{{STATIC_URL}}js/controllers/mc3_auth_utils.js"></script>
+    <script type="text/javascript" src="{{STATIC_URL}}js/lib/require.js"></script>
+    <script type="text/javascript" src="{{STATIC_URL}}js/lib/jquery.center.js"></script>
+    <script type="text/javascript"
+        src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_HTMLorMML-full&amp;delayStartupUntil=configured">
+    </script>
+
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            jax: ["input/MathML", "input/TeX", "input/AsciiMath", "output/NativeMML", "output/HTML-CSS"],
+            extensions: ["asciimath2jax.js","tex2jax.js","mml2jax.js","MathMenu.js","MathZoom.js","MathEvents.js","toMathML.js"],
+            tex2jax: { inlineMath: [["[TEX_START]","[TEX_END]"], ["\\(", "\\)"]] },
+            // Apparently we can't change the escape sequence for ASCIIMath (MathJax doesn't find it)
+            // asciimath2jax: { inlineMath: [["[ASCIIMATH_START]", "[ASCIIMATH_END]"]], },
+
+            TeX: {
+            extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js"], noErrors: { disabled: true }
+            },
+            AsciiMath: { noErrors: { disabled: true } }
+        });
+    </script>
+    <script type="text/javascript" src="{{STATIC_URL}}js/lib/aloha-settings.js"></script>
+    <script type="text/javascript" src="{{STATIC_URL}}js/lib/aloha.js"
+        data-aloha-plugins="common/ui,
+                            oer/copy,
+                            oer/toolbar,
+                            oer/overlay,
+                            oer/format,
+                            common/contenthandler,
+                            common/paste,
+                            common/block,
+                            common/list,
+                            oer/table,
+                            oer/math,
+                            oer/mathcheatsheet,
+                            extra/draganddropfiles,
+                            common/image,
+                            oer/assorted,
+                            oer/title,
+                            common/undo,
+                            oer/undobutton,
+                            oer/genericbutton,
+                            oer/semanticblock,
+                            oer/exercise,
+                            oer/quotation,
+                            oer/equation,
+                            oer/example,
+                            oer/note">
+    </script>
+    <script type="text/javascript">
+        var body_url = 'sandbox/index.html';
+        var save_url = null;
+    </script>
     <script type="text/javascript" src="{{STATIC_URL}}js/bindings/dashboard.js"></script>
 {% endblock %}

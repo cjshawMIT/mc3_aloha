@@ -44,6 +44,7 @@ LOGIN_URL = settings_credentials.__dict__.get('LOGIN_URL')
 # For MC3 Configuration
 MC3_HOST = settings_credentials.__dict__.get('MC3_HOST')
 MC3_SERVICES = settings_credentials.__dict__.get('MC3_SERVICES')
+MC3_KEY = settings_credentials.__dict__.get('MC3_KEY')
 
 #For functional tests
 SELENIUM_WEBDRIVER = settings_credentials.__dict__.get('SELENIUM_WEBDRIVER')
