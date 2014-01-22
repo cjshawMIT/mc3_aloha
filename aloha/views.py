@@ -107,7 +107,7 @@ def register(request):
 @login_required
 @user_passes_test(lambda u: u.is_active)
 def sandbox(request):
-    with open('./templates/sandbox/index.html') as f:
+    with open(settings.PROJECT_PATH + 'templates/sandbox/index.html') as f:
         page = BeautifulSoup(f)
         return HttpResponse(page.html)
     # return render(request, 'sandbox/index.html')

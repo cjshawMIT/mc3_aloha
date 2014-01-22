@@ -18,4 +18,5 @@ def request_key_from_handcar(user):
                   agent + '/?proxyname=' + my_key
     cxn = requests.get(gen_key_url)
     agent_key = cxn.text
+    # agent_key = settings.MC3_KEY
     return agent_key
