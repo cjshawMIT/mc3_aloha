@@ -51,48 +51,42 @@
             <!--  Toolbar Buttons  -->
             <!-- ================= -->
             <div class="toolbar aloha-dialog">
-                <div class="btn-toolbar">
+                <div class="btn-toolbar" role="toolbar">
                   <div class="btn-group">
-                    <button class="btn action save" rel="tooltip" title="Save">Save</button>
+                    <button class="btn btn-default action save" rel="tooltip" title="Save">Save</button>
                   </div>
-                  <span class="separator"> </span>
                   <div class="btn-group">
-                    <button class="btn action undo" rel="tooltip" title="Undo"><i class="icon-undo"></i></button>
-                    <button class="btn action redo" rel="tooltip" title="Redo"><i class="icon-redo"></i></button>
+                    <button class="btn btn-default action undo" rel="tooltip" title="Undo"><i class="fa fa-undo"></i></button>
+                    <button class="btn btn-default action redo" rel="tooltip" title="Redo"><i class="fa fa-rotate-right"></i></button>
                   </div>
-                  <span class="separator"> </span>
                   <div class="btn-group headings">
-                    <button class="btn heading dropdown-toggle" data-toggle="dropdown" rel="tooltip" title="Text Heading" id="headingbutton">
+                    <button class="btn btn-default heading dropdown-toggle" data-toggle="dropdown" rel="tooltip" title="Text Heading" id="headingbutton">
                       <span class="currentHeading">&nbsp;</span>
                       <span class="caret"></span></button>
                     <ul class="dropdown-menu"></ul>
                   </div>
-                  <span class="separator"> </span>
                   <div class="btn-group">
-                    <button class="btn action strong" rel="tooltip" title="Bold"><i class="icon-bold"></i></button>
-                    <button class="btn action emphasis" rel="tooltip" title="Italics"><i class="icon-italic"></i></button>
-                    <button class="btn action underline" rel="tooltip" title="Underline"><i class="icon-underline"></i></button>
-                    <button class="btn action  superscript" rel="tooltip" title="Superscript"><i class="icon-superscript"></i></button>
-                    <button class="btn action subscript" rel="tooltip" title="Subscript"><i class="icon-subscript"></i></button>
+                    <button class="btn btn-default action strong" rel="tooltip" title="Bold"><i class="fa fa-bold"></i></button>
+                    <button class="btn btn-default action emphasis" rel="tooltip" title="Italics"><i class="fa fa-italic"></i></button>
+                    <button class="btn btn-default action underline" rel="tooltip" title="Underline"><i class="fa fa-underline"></i></button>
+                    <button class="btn btn-default action superscript" rel="tooltip" title="Superscript"><i class="fa fa-superscript"></i></button>
+                    <button class="btn btn-default action subscript" rel="tooltip" title="Subscript"><i class="fa fa-subscript"></i></button>
                   </div>
-                  <span class="separator"> </span>
                   <div class="btn-group">
-                    <button class="btn action insertLink" rel="tooltip" title="Insert Link"><i class="icon-link-insert"></i></button>
+                    <button class="btn btn-default action insertLink" rel="tooltip" title="Insert Link"><i class="fa fa-link"></i></button>
                     <!-- <button class="btn action changeHeading" data-tagname="pre" rel="tooltip" title="Code">Code</button> -->
                   </div>
-                  <span class="separator"> </span>
                   <div class="btn-group">
-                    <button class="btn action unorderedList" rel="tooltip" title="Insert Unordered List"><i class="icon-unordered-list"></i></button>
-                    <button class="btn action orderedList" rel="tooltip" title="Insert Ordered List"><i class="icon-ordered-list"></i></button>
-                    <button class="btn action indentList" rel="tooltip" title="Indent list item (move right)"><i class="icon-indent-list"></i></button>
-                    <button class="btn action outdentList" rel="tooltip" title="Unindent list item (move left)"><i class="icon-outdent-list"></i></button>
+                    <button class="btn btn-default action unorderedList" rel="tooltip" title="Insert Unordered List"><i class="fa fa-list-ul"></i></button>
+                    <button class="btn btn-default action orderedList" rel="tooltip" title="Insert Ordered List"><i class="fa fa-list-ol"></i></button>
+                    <button class="btn btn-default action indentList" rel="tooltip" title="Indent list item (move right)"><i class="fa fa-indent"></i></button>
+                    <button class="btn btn-default action outdentList" rel="tooltip" title="Unindent list item (move left)"><i class="fa fa-outdent"></i></button>
                   </div>
-                  <span class="separator"> </span>
                   <div class="btn-group">
-                    <button class="btn action insertImage-oer" rel="tooltip" title="Insert Image"><i class="icon-image-insert"></i></button>
+                    <button class="btn btn-default action insertImage-oer" rel="tooltip" title="Insert Image"><i class="fa fa-picture-o"></i></button>
                     <!--<button class="btn action insertVideo-oer" rel="tooltip" title="Insert Video"><i class="icon-image-insert"></i></button>-->
-                    <button class="btn action createTable" rel="tooltip" title="Create Table"><i class="icon-table-insert"></i></button>
-                    <button class="btn dropdown-toggle" data-toggle="dropdown" rel="tooltip" title="Table Operations">
+                    <button class="btn btn-default action createTable" rel="tooltip" title="Create Table"><i class="fa fa-table"></i></button>
+                    <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" rel="tooltip" title="Table Operations">
                       <span class="caret"></span>
                     </button>
                     <ul class="dropdown-menu">
@@ -105,12 +99,10 @@
                       <li><a href="#" class="action deletecolumn">Delete Column</a></li>
                       <li><a href="#" class="action deletetable">Delete Table</a></li>
                     </ul>
-                    <button class="btn action insertMath" rel="tooltip" title="Insert Math"><i class="icon-math-insert"></i></button>
+                    <button class="btn btn-default action insertMath" rel="tooltip" title="Insert Math"><i class="fa fa-plus"></i></button>
                   </div>
-
-                  <span class="separator"></span>
                   <div class="btn-group">
-                    <button class="btn btn-text dropdown-toggle" data-toggle="dropdown" rel="tooltip" title="Add a new...">
+                    <button class="btn btn-default btn-text dropdown-toggle" data-toggle="dropdown" rel="tooltip" title="Add a new...">
                       Add a new...
                       <span class="caret"></span>
                     </button>
@@ -123,7 +115,7 @@
                     </ul>
                   </div>
                   <div class="btn-group">
-                    <button class="btn action paste" rel="tooltip" title="paste">Paste</button>
+                    <button class="btn btn-default action paste" rel="tooltip" title="paste">Paste</button>
                   </div>
                 </div>
 
@@ -143,8 +135,8 @@
                             <div class="problem"></div>
                         </div>
 
-                        <blockquote class="quote">
-                        </blockquote>
+                        <div class="quote">
+                        </div>
 
                         <div class="equation">
                         </div>
