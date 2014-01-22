@@ -43,8 +43,9 @@ def dashboard(request):
     """
     User dashboard to edit books?
     """
-    cur_user = request.user
-    return render(request, 'aloha/dashboard.html')
+    return render(request, 'aloha/dashboard.html', {
+        'mc3_host': settings.MC3_HOST
+    })
 
 @login_required
 @user_passes_test(lambda u: u.is_active)

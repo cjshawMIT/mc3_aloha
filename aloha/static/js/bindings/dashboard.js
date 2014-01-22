@@ -1,4 +1,7 @@
 $(document).ready(function() {
+    MC3AUTH.set_mc3_host_display();
+    MC3AUTH.init_bank_selector();
+
     $(document).on('click', '.nav-help', function() {
         $('#help_modal').dialog({
             closeOnEscape: true,
@@ -9,6 +12,10 @@ $(document).ready(function() {
         MC3UTILS.bind_dialog_close_events();
     });
 
+    $('#bank_selector').on('change', function(e) {
+        var raw_data = $(this).select2('data');
+        MC3AUTH.set_active_bank(raw_data.id);
+    });
 
     Aloha.ready(function(){
         Aloha.require(['PubSub', 'genericbutton/genericbutton-plugin'],
@@ -71,6 +78,11 @@ $(document).ready(function() {
                         if (callback_function) {
                             callback_function();
                         }
+                    }
+
+                    // Added for MC3 demo for definitions
+                    if ($('dl.definition.aloha-oer-block').length > 0) {
+                        MC3AUTH.save_definitions_to_mc3();
                     }
                 }
             }

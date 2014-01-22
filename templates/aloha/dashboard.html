@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="{{STATIC_URL}}css/html5_content_in_oerpub.css" />
     <link rel="stylesheet" href="{{STATIC_URL}}css/style.css" />
     <link rel="stylesheet" href="{{STATIC_URL}}css/toolbar.css" />
+    <link rel="stylesheet" href="{{STATIC_URL}}css/select2.css" />
 {% endblock %}
 
 {% block user_toggle %}
@@ -42,6 +43,9 @@
         </ul>
     </div>
     <!-- user dropdown ends -->
+    <div class="pull-right bank_selector">
+        <input type="hidden" value="" id="bank_selector"/>
+    </div>
 {% endblock %}
 
 {% block content %}
@@ -112,6 +116,7 @@
                       <li><a href="#" class="action insertExercise">Exercise</a></li>
                       <li><a href="#" class="action insertQuotation">Quotation</a></li>
                       <li><a href="#" class="action insertEquation">Equation</a></li>
+                      <li><a href="#" class="action insertDefinition">Definition</a></li>
                     </ul>
                   </div>
                   <div class="btn-group">
@@ -140,6 +145,9 @@
 
                         <div class="equation">
                         </div>
+
+                        <dl class="definition">
+                        </dl>
                     </div>
 
                 </div>
@@ -206,11 +214,18 @@
                             oer/quotation,
                             oer/equation,
                             oer/example,
+                            oer/definition,
                             oer/note">
     </script>
     <script type="text/javascript">
         var body_url = '{% url 'aloha:sandbox' %}';
         var save_url = null;
     </script>
+    <script type="text/javascript" src="{{STATIC_URL}}js/lib/select2.js"></script>
+    <script type="text/javascript" src="{{STATIC_URL}}js/controllers/mc3_auth_utils.js"></script>
+    <script type="text/javascript" src="{{STATIC_URL}}js/controllers/dashboard.js"></script>
     <script type="text/javascript" src="{{STATIC_URL}}js/bindings/dashboard.js"></script>
+    <script type="text/javascript">
+        MC3AUTH.set_mc3_host('{{ mc3_host }}');
+    </script>
 {% endblock %}

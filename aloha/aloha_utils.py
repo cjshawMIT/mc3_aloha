@@ -14,10 +14,8 @@ def request_key_from_handcar(user):
     mc3 = settings.MC3_HOST
     my_key = settings.MC3_KEY
     agent = user.email
-    gen_key_url = 'https://' + mc3 + '/handcar/services/authentication/agentkeys/' + agent
-    params = {
-        'proxyname': my_key
-    }
-    c = requests.get(gen_key_url, params = params)
-    agent_key = c.text
+    gen_key_url = 'https://' + mc3 + '/handcar/services/authentication/agentkeys/' + \
+                  agent + '/?proxyname=' + my_key
+    cxn = requests.get(gen_key_url)
+    agent_key = cxn.text
     return agent_key

@@ -58,10 +58,16 @@ body {
     min-width: inherit; !important
 }
 
-.user_menu {
+.user_menu,
+.bank_selector {
     margin-top: 8px;
     margin-right: 15px;
     margin-bottom: 8px;
+}
+
+.select2-drop-active,
+.select2-container {
+    min-width: 300px !important;
 }
 
 

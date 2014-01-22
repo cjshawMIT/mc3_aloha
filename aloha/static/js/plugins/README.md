@@ -8,4 +8,4 @@ There are 5 directories
 * `oerpub`: contains plugins written by the OERPub community and are not yet used by other groups
 * `oer`: contains plugins used by both Connexions and OERPub
 
-If you would like to contribute some plugins feele free to create another directory an put your plugins in there.
+If you would like to contribute some plugins feel free to create another directory and put your plugins in there.
