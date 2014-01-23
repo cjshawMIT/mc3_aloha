@@ -2,3 +2,4 @@ logs/
 .DS_Store
 settings_credentials.py
 django.wsgi
+*.pyc
