@@ -19,3 +19,4 @@ def request_key_from_handcar(user, host):
     cxn = requests.get(gen_key_url)
     agent_key = cxn.text
     return agent_key
+    # return my_key

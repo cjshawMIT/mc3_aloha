@@ -43,10 +43,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="aloha-settings.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aloha/static/js/lib/aloha-settings.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="68" column="20" selection-start="2195" selection-end="2195" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1548">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="dashboard.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aloha/static/js/bindings/dashboard.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="85" column="79" selection-start="3829" selection-end="3829" vertical-scroll-proportion="0.0" vertical-offset="1764" max-vertical-offset="2988">
+            <state line="85" column="79" selection-start="3829" selection-end="3829" vertical-scroll-proportion="0.0" vertical-offset="2466" max-vertical-offset="2988">
               <folding />
             </state>
           </provider>
@@ -64,16 +73,25 @@
       <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/auth_wrapper/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="58" selection-start="1849" selection-end="1849" vertical-scroll-proportion="-12.96" vertical-offset="486" max-vertical-offset="3114">
+            <state line="47" column="58" selection-start="1849" selection-end="1849" vertical-scroll-proportion="-10.08" vertical-offset="558" max-vertical-offset="3114">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="aloha_utils.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="settings_credentials.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/auth_wrapper/settings_credentials.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="45" column="0" selection-start="1300" selection-end="2357" vertical-scroll-proportion="0.203966" vertical-offset="738" max-vertical-offset="2556">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="aloha_utils.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aloha/aloha_utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="41" selection-start="334" selection-end="334" vertical-scroll-proportion="0.37017995" vertical-offset="0" max-vertical-offset="396">
+            <state line="21" column="17" selection-start="703" selection-end="703" vertical-scroll-proportion="-12.24" vertical-offset="0" max-vertical-offset="414">
               <folding />
             </state>
           </provider>
@@ -111,7 +129,6 @@
         <option value="$PROJECT_DIR$/aloha/static/css/toolbar.css" />
         <option value="$PROJECT_DIR$/aloha/static/js/plugins/README.md" />
         <option value="$PROJECT_DIR$/aloha/static/js/plugins/oer/definition/css/definition-plugin.css" />
-        <option value="$PROJECT_DIR$/auth_wrapper/settings_credentials.py" />
         <option value="$PROJECT_DIR$/auth_wrapper/settings.py" />
         <option value="$PROJECT_DIR$/aloha/static/js/controllers/mc3_auth_utils.js" />
         <option value="$PROJECT_DIR$/aloha/views.py" />
@@ -122,6 +139,7 @@
         <option value="$PROJECT_DIR$/aloha/static/js/controllers/dashboard.js" />
         <option value="$PROJECT_DIR$/aloha/static/js/bindings/dashboard.js" />
         <option value="$PROJECT_DIR$/aloha/aloha_utils.py" />
+        <option value="$PROJECT_DIR$/auth_wrapper/settings_credentials.py" />
       </list>
     </option>
   </component>
@@ -275,6 +293,36 @@
               <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mc3_aloha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mc3_aloha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aloha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -299,6 +347,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mc3_aloha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mc3_aloha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aloha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -642,27 +712,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3474" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aloha/static/js/lib/aloha-settings.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="20" selection-start="2195" selection-end="2195" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1548">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth_wrapper/settings_credentials.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="88" selection-start="2094" selection-end="2094" vertical-scroll-proportion="-12.96" vertical-offset="594" max-vertical-offset="2556">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth_wrapper/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="58" selection-start="1849" selection-end="1849" vertical-scroll-proportion="-12.96" vertical-offset="486" max-vertical-offset="3114">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/aloha/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="45" column="49" selection-start="1564" selection-end="1564" vertical-scroll-proportion="-11.52" vertical-offset="288" max-vertical-offset="1980">
@@ -698,13 +747,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aloha/static/js/bindings/dashboard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="79" selection-start="3829" selection-end="3829" vertical-scroll-proportion="0.0" vertical-offset="1764" max-vertical-offset="2988">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/aloha/static/js/controllers/mc3_auth_utils.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="48" column="50" selection-start="1693" selection-end="1693" vertical-scroll-proportion="2.0869565" vertical-offset="0" max-vertical-offset="1854">
@@ -719,9 +761,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/aloha/static/js/lib/aloha-settings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="20" selection-start="2195" selection-end="2195" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1548">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aloha/static/js/bindings/dashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="79" selection-start="3829" selection-end="3829" vertical-scroll-proportion="0.0" vertical-offset="2466" max-vertical-offset="2988">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth_wrapper/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="58" selection-start="1849" selection-end="1849" vertical-scroll-proportion="-10.08" vertical-offset="558" max-vertical-offset="3114">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/aloha/aloha_utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="41" selection-start="334" selection-end="334" vertical-scroll-proportion="0.37017995" vertical-offset="0" max-vertical-offset="396">
+        <state line="21" column="17" selection-start="703" selection-end="703" vertical-scroll-proportion="-12.24" vertical-offset="0" max-vertical-offset="414">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth_wrapper/settings_credentials.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="0" selection-start="1300" selection-end="2357" vertical-scroll-proportion="0.203966" vertical-offset="738" max-vertical-offset="2556">
           <folding />
         </state>
       </provider>
