@@ -11,7 +11,7 @@ def log_error(module, ex):
     return message
 
 def request_key_from_handcar(user, host):
-    key_var = host.upper().replace('-', '_') + '_KEY'
+    key_var = host.upper().split('.')[0].replace('-', '_') + '_KEY'
     my_key = getattr(settings, key_var)
     agent = user.email
     gen_key_url = 'https://' + host + '/handcar/services/authentication/agentkeys/' + \
