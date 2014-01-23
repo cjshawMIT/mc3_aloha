@@ -8,9 +8,24 @@
         </a>
     </li>
     <li>
-        <a href="#">
-            MC3 Host: <span id="mc3_host"></span>
-        </a>
+        <div class="mc3_selector">
+            <select id="host_selector" class="">
+                <option value="oki-dev.mit.edu">
+                    <span class="hidden-tablet"> OKI-DEV</span>
+                </option>
+                <option value="mc3-demo.mit.edu">
+                    <span class="hidden-tablet"> MC3 Demo</span>
+                </option>
+                <option value="mc3.mit.edu">
+                    <span class="hidden-tablet"> MC3</span>
+                </option>
+            </select>
+        </div>
+    </li>
+    <li>
+        <div class="mc3_selector">
+            <input type="hidden" value="" id="bank_selector" class=""/>
+        </div>
     </li>
 {% endblock %}
 

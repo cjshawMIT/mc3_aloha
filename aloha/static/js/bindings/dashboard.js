@@ -1,5 +1,6 @@
 $(document).ready(function() {
-    MC3AUTH.set_mc3_host_display();
+    MC3AUTH.set_mc3_host('oki-dev.mit.edu');
+    MC3AUTH.init_host_selector();
     MC3AUTH.init_bank_selector();
 
     $(document).on('click', '.nav-help', function() {
@@ -15,6 +16,16 @@ $(document).ready(function() {
     $('#bank_selector').on('change', function(e) {
         var raw_data = $(this).select2('data');
         MC3AUTH.set_active_bank(raw_data.id);
+    });
+
+    $('#host_selector').on('change', function(e) {
+        if (e.hasOwnProperty('val')) {
+            var sel = e.val;
+        } else {
+            var sel = $(this).val();
+        }
+        MC3AUTH.set_mc3_host(sel);
+        MC3AUTH.init_bank_selector();
     });
 
     Aloha.ready(function(){
@@ -72,7 +83,7 @@ $(document).ready(function() {
                             PubSub.pub('swordpushweb.saved');
                         });
                     } else {
-                        $('#statusmessage').data('message')('Saved');
+                        $('#statusmessage').data('message')('Fake save of text.');
                         GenericButton.getButtons()["save"].enable(false);
                         $('.btn.save').html('Saved');
                         if (callback_function) {

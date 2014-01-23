@@ -43,16 +43,15 @@ def dashboard(request):
     """
     User dashboard to edit books?
     """
-    return render(request, 'aloha/dashboard.html', {
-        'mc3_host': settings.MC3_HOST
-    })
+    return render(request, 'aloha/dashboard.html')
 
 @login_required
 @user_passes_test(lambda u: u.is_active)
 def get_key(request):
     key = ''
+    host = request.GET['host']
     try:
-        key = request_key_from_handcar(request.user)
+        key = request_key_from_handcar(request.user, host)
     except Exception as ex:
         log_error('views.get_key()', ex)
     finally:

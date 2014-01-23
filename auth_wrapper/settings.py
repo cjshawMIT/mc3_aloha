@@ -44,6 +44,8 @@ LOGIN_URL = settings_credentials.__dict__.get('LOGIN_URL')
 # For MC3 Configuration
 MC3_HOST = settings_credentials.__dict__.get('MC3_HOST')
 MC3_SERVICES = settings_credentials.__dict__.get('MC3_SERVICES')
+OKI_DEV_KEY = settings_credentials.__dict__.get('OKI_DEV_KEY')
+MC3_DEMO_KEY = settings_credentials.__dict__.get('MC3_DEMO_KEY')
 MC3_KEY = settings_credentials.__dict__.get('MC3_KEY')
 
 #For functional tests

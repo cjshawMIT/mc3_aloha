@@ -10,13 +10,12 @@ def log_error(module, ex):
     logging.info(message)
     return message
 
-def request_key_from_handcar(user):
-    mc3 = settings.MC3_HOST
-    my_key = settings.MC3_KEY
+def request_key_from_handcar(user, host):
+    key_var = host.upper().replace('-', '_') + '_KEY'
+    my_key = getattr(settings, key_var)
     agent = user.email
-    gen_key_url = 'https://' + mc3 + '/handcar/services/authentication/agentkeys/' + \
+    gen_key_url = 'https://' + host + '/handcar/services/authentication/agentkeys/' + \
                   agent + '/?proxyname=' + my_key
     cxn = requests.get(gen_key_url)
     agent_key = cxn.text
-    # agent_key = settings.MC3_KEY
     return agent_key

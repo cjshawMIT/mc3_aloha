@@ -94,6 +94,11 @@ var MC3AUTH = (function(window, document, $, auth, undefined) {
         });
     };
 
+    auth.init_host_selector = function () {
+        $('#host_selector').select2();
+        $('#host_selector').select2('val','oki-dev.mit.edu');
+    };
+
     auth.save_definitions_to_mc3 = function () {
         var defs = $('dl.definition.aloha-oer-block');
         $.each(defs, function (index, def) {
@@ -108,10 +113,6 @@ var MC3AUTH = (function(window, document, $, auth, undefined) {
 
     auth.set_mc3_host = function (host) {
         _host = host;
-    };
-
-    auth.set_mc3_host_display = function () {
-        $('#mc3_host').text(_host);
     };
 
     return auth;

@@ -43,9 +43,6 @@
         </ul>
     </div>
     <!-- user dropdown ends -->
-    <div class="pull-right bank_selector">
-        <input type="hidden" value="" id="bank_selector"/>
-    </div>
 {% endblock %}
 
 {% block content %}
@@ -225,7 +222,4 @@
     <script type="text/javascript" src="{{STATIC_URL}}js/controllers/mc3_auth_utils.js"></script>
     <script type="text/javascript" src="{{STATIC_URL}}js/controllers/dashboard.js"></script>
     <script type="text/javascript" src="{{STATIC_URL}}js/bindings/dashboard.js"></script>
-    <script type="text/javascript">
-        MC3AUTH.set_mc3_host('{{ mc3_host }}');
-    </script>
 {% endblock %}

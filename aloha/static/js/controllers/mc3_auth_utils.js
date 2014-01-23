@@ -45,6 +45,9 @@ var MC3UTILS = (function(window, document, $, utils, undefined) {
     utils.send_authorized_ajax = function (data) {
         function get_agent_key(_callback) {
             var key_params = {
+                'data': {
+                    'host': MC3AUTH.get_mc3_host()
+                },
                 'url': 'get_key/'
             };
 
