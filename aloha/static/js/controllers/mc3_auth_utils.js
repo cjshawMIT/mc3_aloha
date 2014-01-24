@@ -111,7 +111,7 @@ var MC3UTILS = (function(window, document, $, utils, undefined) {
         });
     };
 
-    utils.send_authorized_ajax = function (data) {
+    utils.send_authorized_ajax = function (data, def) {
         function get_agent_key(_callback) {
             var key_params = {
                 'data': {
@@ -130,7 +130,9 @@ var MC3UTILS = (function(window, document, $, utils, undefined) {
                     'method': 'POST',
                     'url': MC3AUTH.get_objectives_url(key)
                 };
-
+                if ($.parseJSON(data).hasOwnProperty('id')) {
+                    send_params['method'] = 'PUT';
+                }
                 utils.send_ajax(send_params, notify_mc3_save, notify_mc3_error, null);
             } else {
                 utils.update_status('Error: key not generated.');
@@ -146,6 +148,7 @@ var MC3UTILS = (function(window, document, $, utils, undefined) {
         function notify_mc3_save(results) {
             if (results) {
                 utils.aloha_message('Saved definition to MC3.');
+                $(def).data('mc3_id', results.id);
             }
         }
 

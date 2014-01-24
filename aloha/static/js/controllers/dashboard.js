@@ -14,10 +14,14 @@ var MC3AUTH = (function(window, document, $, _auth, undefined) {
                 'text': $(ele).children('.body').text()
             },
             'displayName': {
-                'text': $(ele).children('.term-wrapper').children('.term').text()
+                'text': $(ele).children('.term-wrapper').text()
             },
             'genusTypeId': 'mc3-objective%3Amc3.learning.topic%40MIT-OEIT'
         };
+
+        if ($(ele).data().hasOwnProperty('mc3_id')) {
+            obj['id'] = $(ele).data('mc3_id');
+        }
         return JSON.stringify(obj);
     };
 
@@ -124,15 +128,17 @@ var MC3AUTH = (function(window, document, $, _auth, undefined) {
                 .append(similar_defs);
         $.each(terms, function (index, term) {
             var desc = term.description.text;
+            var name = term.displayName.text;
             var row = $('<div></div>')
                     .addClass('row')
                     .addClass('box')
                     .addClass('existing_mc3_def')
-                    .append('<div class="left_col col-sm-5">' + term.displayName.text + '</div>')
+                    .append('<div class="left_col col-sm-5">' + name + '</div>')
                     .append('<div class="col-sm-7">' + desc + '</div>')
                     .data('mc3_id', term.id)
                     .data('target', target)
-                    .data('description', desc);
+                    .data('description', desc)
+                    .data('name', name);
             similar_defs.append(row);
             if (--counter === 0) {
                 wrapper.dialog({
@@ -152,10 +158,10 @@ var MC3AUTH = (function(window, document, $, _auth, undefined) {
     };
 
     _auth.save_definitions_to_mc3 = function () {
-        var defs = $('dl.definition.aloha-oer-block');
+        var defs = $('dl.mc3definition.aloha-oer-block');
         $.each(defs, function (index, def) {
             var obj = _auth.construct_objective(def);
-            MC3UTILS.send_authorized_ajax(obj);
+            MC3UTILS.send_authorized_ajax(obj, def);
         });
     };
 
@@ -165,7 +171,7 @@ var MC3AUTH = (function(window, document, $, _auth, undefined) {
 
     _auth.set_definition = function (ele) {
         var target = $($(ele).data('target'));
-        target.text($(ele).data('description'));
+        target.text($(ele).data('description')).aloha();
     };
 
     _auth.set_definition_mc3_id = function (ele) {
@@ -176,6 +182,12 @@ var MC3AUTH = (function(window, document, $, _auth, undefined) {
 
     _auth.set_mc3_host = function (host) {
         _host = host;
+    };
+
+    _auth.set_name = function (ele) {
+        var target = $($(ele).data('target'))
+                .siblings('.term-wrapper');
+        target.text($(ele).data('name')).aloha();
     };
 
     _auth.toggle_icon = function (icon) {

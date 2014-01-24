@@ -36,6 +36,7 @@ $(document).ready(function() {
 
     $(document).on('click', '.existing_mc3_def', function () {
         var _this = $(this);
+        MC3AUTH.set_name(_this);
         MC3AUTH.set_definition(_this);
         MC3AUTH.set_definition_mc3_id(_this);
         MC3AUTH.close_parent_dialog(_this);
@@ -105,7 +106,7 @@ $(document).ready(function() {
                     }
 
                     // Added for MC3 demo for definitions
-                    if ($('dl.definition.aloha-oer-block').length > 0) {
+                    if ($('dl.mc3definition.aloha-oer-block').length > 0) {
                         MC3AUTH.save_definitions_to_mc3();
                     }
                 }
