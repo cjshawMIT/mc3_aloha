@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42aeaef9-b153-44a7-a98b-619955900ba9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aloha/static/js/bindings/dashboard.js" afterPath="$PROJECT_DIR$/aloha/static/js/bindings/dashboard.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aloha/static/js/controllers/dashboard.js" afterPath="$PROJECT_DIR$/aloha/static/js/controllers/dashboard.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aloha/static/js/controllers/mc3_auth_utils.js" afterPath="$PROJECT_DIR$/aloha/static/js/controllers/mc3_auth_utils.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mc3_aloha.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,19 +61,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dashboard.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="dashboard.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/aloha/static/js/controllers/dashboard.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="163" column="52" selection-start="5614" selection-end="5614" vertical-scroll-proportion="0.0" vertical-offset="2713" max-vertical-offset="3762">
+            <state line="54" column="26" selection-start="1467" selection-end="1468" vertical-scroll-proportion="0.68578553" vertical-offset="697" max-vertical-offset="3762">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mc3_auth_utils.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="mc3_auth_utils.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aloha/static/js/controllers/mc3_auth_utils.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="150" column="22" selection-start="5033" selection-end="5033" vertical-scroll-proportion="0.83505154" vertical-offset="2376" max-vertical-offset="3348">
+            <state line="150" column="22" selection-start="5033" selection-end="5033" vertical-scroll-proportion="0.0" vertical-offset="576" max-vertical-offset="3348">
               <folding />
             </state>
           </provider>
@@ -114,8 +111,8 @@
         <option value="$PROJECT_DIR$/aloha/views.py" />
         <option value="$PROJECT_DIR$/aloha/static/css/aloha_wrapper.css" />
         <option value="$PROJECT_DIR$/aloha/static/js/bindings/dashboard.js" />
-        <option value="$PROJECT_DIR$/aloha/static/js/controllers/dashboard.js" />
         <option value="$PROJECT_DIR$/aloha/static/js/controllers/mc3_auth_utils.js" />
+        <option value="$PROJECT_DIR$/aloha/static/js/controllers/dashboard.js" />
       </list>
     </option>
   </component>
@@ -1044,16 +1041,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aloha/static/js/controllers/dashboard.js">
+    <entry file="file://$PROJECT_DIR$/aloha/static/js/controllers/mc3_auth_utils.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="163" column="52" selection-start="5614" selection-end="5614" vertical-scroll-proportion="0.0" vertical-offset="2713" max-vertical-offset="3762">
+        <state line="150" column="22" selection-start="5033" selection-end="5033" vertical-scroll-proportion="0.0" vertical-offset="576" max-vertical-offset="3348">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aloha/static/js/controllers/mc3_auth_utils.js">
+    <entry file="file://$PROJECT_DIR$/aloha/static/js/controllers/dashboard.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="150" column="22" selection-start="5033" selection-end="5033" vertical-scroll-proportion="0.83505154" vertical-offset="2376" max-vertical-offset="3348">
+        <state line="54" column="26" selection-start="1467" selection-end="1468" vertical-scroll-proportion="0.68578553" vertical-offset="697" max-vertical-offset="3762">
           <folding />
         </state>
       </provider>

@@ -52,7 +52,7 @@ var MC3AUTH = (function(window, document, $, _auth, undefined) {
     _auth.get_objectives_url = function (key) {
         var url = _auth.get_active_bank_url() + '/objectives';
         if (typeof key !== 'undefined') {
-            url += '/?proxyname=' + key;
+//            url += '/?proxyname=' + key;
         }
         return url
     };
