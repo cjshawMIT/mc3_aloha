@@ -1,0 +1,31 @@
+/* Modified from the OER Definition plugin */
+
+.semantic-drag-source dl.mc3definition:before {
+    content: "MC3 Definition";
+}
+
+dl.mc3definition.aloha-oer-block {
+    display: block;
+}
+dl.mc3definition.aloha-oer-block {
+  padding: 0;
+  margin: 0 0 0 10px;
+  border: 0;
+}
+
+.aloha-oer-block.mc3definition .term-wrapper:before {
+    content: "\25A0  MC3 Definition";
+    font-weight: bold;
+    margin: 5px 10px 0 5px;
+    color: #369;
+    display: inline-block;
+}
+.aloha-oer-block.mc3definition .term {
+    display: inline-block;
+}
+.aloha-oer-block.mc3definition .term:not(:empty) {
+    font-weight: bold;
+}
+dl.mc3definition .body {
+  margin: 10px 0 10px 25px;
+}

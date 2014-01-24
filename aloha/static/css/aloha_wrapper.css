@@ -88,3 +88,30 @@ body {
 .ui-dialog-titlebar-close {
     padding-bottom: 20px;
 }
+
+.pointer {
+    cursor: pointer;
+}
+
+#similar_defs {
+    max-width: 100%;
+    overflow: auto !important;
+    max-height: 350px;
+}
+
+#similar_defs .box {
+    cursor: pointer;
+    margin: 5px 5px 5px 5px;
+    border: 1px solid #d4d4d4;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border-color: #D4D4D4 #D4D4D4 #BCBCBC;
+    padding: 3px 3px 3px 3px;
+    background-color: #eeeeee;
+}
+
+#similar_defs .left_col {
+    border-right:1px solid #16222c;
+    padding-right: 10px;
+}

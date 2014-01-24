@@ -28,6 +28,19 @@ $(document).ready(function() {
         MC3AUTH.init_bank_selector();
     });
 
+    $(document).on('click', '.toggle_similar', function () {
+        $('#similar_defs').slideToggle();
+        var icon = $(this).find('.fa');
+        MC3AUTH.toggle_icon(icon);
+    });
+
+    $(document).on('click', '.existing_mc3_def', function () {
+        var _this = $(this);
+        MC3AUTH.set_definition(_this);
+        MC3AUTH.set_definition_mc3_id(_this);
+        MC3AUTH.close_parent_dialog(_this);
+    });
+
     Aloha.ready(function(){
         Aloha.require(['PubSub', 'genericbutton/genericbutton-plugin'],
                 function(PubSub, GenericButton){

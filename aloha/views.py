@@ -13,6 +13,10 @@ from .aloha_utils import *
 
 from bs4 import BeautifulSoup
 
+# TODO: add in email verification for registration:
+# http://stackoverflow.com/questions/5495317/implementation-of-e-mail-verification-in-django
+# http://stackoverflow.com/questions/1325983/django-send-email-in-html-with-django-registration
+
 def create_user(request):
     if request.method == 'POST':
         fname = request.POST['fname']
