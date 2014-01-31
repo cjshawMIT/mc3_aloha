@@ -5,7 +5,7 @@
     TEMPLATE = '<dl class="mc3definition"><dt></dt><dd></dd></dl>';
     return Plugin.create('mc3definition', {
       getLabel: function($element) {
-        return 'MC3 Definition';
+        return 'MC3 Learning Outcome';
       },
       activate: function($element) {
         var $definition, term;
@@ -13,13 +13,13 @@
         $definition = $element.children('dd').contents();
         jQuery('<div>').append(term)
                 .addClass('term')
-                .attr('placeholder', 'Enter the term to be defined here')
+                .attr('placeholder', 'Enter the outcome to be defined here')
                 .appendTo($element)
                 .wrap('<div class="term-wrapper"></div>')
                 .aloha();
         jQuery('<div>').addClass('body')
                 .addClass('aloha-block-dropzone')
-                .attr('placeholder', "Type the definition here.")
+                .attr('placeholder', "Type the outcome definition here.")
                 .appendTo($element)
                 .aloha()
                 .append($definition);

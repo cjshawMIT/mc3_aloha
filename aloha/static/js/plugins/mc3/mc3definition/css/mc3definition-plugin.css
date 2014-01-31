@@ -1,7 +1,7 @@
 /* Modified from the OER Definition plugin */
 
 .semantic-drag-source dl.mc3definition:before {
-    content: "MC3 Definition";
+    content: "MC3 Outcome";
 }
 
 dl.mc3definition.aloha-oer-block {
@@ -14,7 +14,7 @@ dl.mc3definition.aloha-oer-block {
 }
 
 .aloha-oer-block.mc3definition .term-wrapper:before {
-    content: "\25A0  MC3 Definition";
+    content: "\25A0  MC3 Learning Outcome";
     font-weight: bold;
     margin: 5px 10px 0 5px;
     color: #369;

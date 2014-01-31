@@ -113,7 +113,8 @@
                       <li><a href="#" class="action insertExercise">Exercise</a></li>
                       <li><a href="#" class="action insertQuotation">Quotation</a></li>
                       <li><a href="#" class="action insertEquation">Equation</a></li>
-                      <li><a href="#" class="action insertMC3Definition">MC3 Definition</a></li>
+                      <li><a href="#" class="action insertMC3Definition">MC3 Outcome</a></li>
+                      <li><a href="#" class="action insertMC3Activity">MC3 Activity</a></li>
                     </ul>
                   </div>
                   <div class="btn-group">
@@ -129,10 +130,6 @@
                             <div class="title"></div>
                         </div>
 
-                        <div class="example">
-                            <div class="title"></div>
-                        </div>
-
                         <div class="exercise">
                             <div class="problem"></div>
                         </div>
@@ -145,6 +142,10 @@
 
                         <dl class="mc3definition">
                         </dl>
+
+                        <div class="mc3activity">
+                            <div class="title"></div>
+                        </div>
                     </div>
 
                 </div>
@@ -210,9 +211,9 @@
                             oer/exercise,
                             oer/quotation,
                             oer/equation,
-                            oer/example,
                             oer/note,
-                            mc3/mc3definition">
+                            mc3/mc3definition,
+                            mc3/mc3activity">
     </script>
     <script type="text/javascript">
         var body_url = '{% url 'aloha:sandbox' %}';

@@ -2,6 +2,20 @@ var MC3AUTH = (function(window, document, $, _auth, undefined) {
     var _host = '';
     var _bank = '';
 
+    _auth.append_outcomes_selector = function(parent) {
+        var selector = $('<input />')
+                .addClass('outcome_selector')
+                .attr('type', 'hidden')
+                .attr('value', '');
+        var wrapper = $('<div></div>')
+                .addClass('mc3activity_outcome_link')
+                .append('<span>For: </span>')
+                .append(selector);
+        parent.append(wrapper);
+        _auth.init_outcome_selectors();
+        return wrapper;
+    };
+
     _auth.close_parent_dialog = function (ele) {
         ele.parent()
                 .parent()
@@ -16,7 +30,7 @@ var MC3AUTH = (function(window, document, $, _auth, undefined) {
             'displayName': {
                 'text': $(ele).children('.term-wrapper').text()
             },
-            'genusTypeId': 'mc3-objective%3Amc3.learning.topic%40MIT-OEIT'
+            'genusTypeId': 'mc3-objective%3Amc3.learning.outcome%40MIT-OEIT'
         };
 
         if ($(ele).data().hasOwnProperty('mc3_id')) {
@@ -109,6 +123,73 @@ var MC3AUTH = (function(window, document, $, _auth, undefined) {
         $('#host_selector').select2('val','oki-dev.mit.edu');
     };
 
+    _auth.init_outcome_selectors = function () {
+        var search_term = '';
+        $('.outcome_selector').select2({
+            placeholder: 'Link to an MC3 Learning Outcome',
+            id: function(obj) {return obj.id;},
+            ajax: {
+                url: _auth.get_objectives_url(),
+                dataType: 'json',
+                data: function (term, page) {
+                    search_term = term.toLowerCase();
+                    return {
+                        q: term,
+                        page: page
+                    };
+                },
+                results: function(data) {
+                    var counter = data.length;
+                    if (counter > 0) {
+                        var filtered_objs = [];
+                        $.each(data, function(index, obj) {
+                            var obj_name = obj.displayName.text;
+                            obj_name = obj_name.toLowerCase();
+
+                            if (obj_name.indexOf(search_term) >= 0 &&
+                                    _auth.obj_is_outcome(obj)) {
+                                filtered_objs.push(obj);
+                            }
+                        });
+                        return {results: filtered_objs};
+                    } else {
+                        var tmp = [{
+                            'displayName': {
+                                'text': 'None Found'
+                            }
+                        }];
+                        return {results: tmp};
+                    }
+                }
+            },
+            formatResult: function(obj) {
+                return obj.displayName.text;
+            },
+            formatSelection: function(obj) {
+                return obj.displayName.text;
+            }
+        });
+    };
+
+    _auth.obj_is_incomplete = function (obj) {
+        if (obj.displayName.text === '' ||
+                obj.description.text === '') {
+            return true;
+        } else {
+            return false;
+        }
+    };
+
+    _auth.obj_is_outcome = function (obj) {
+        var genus = obj.genusTypeId;
+        if (genus === 'mc3-objective%3Amc3.learning.outcome%40MIT-OEIT' ||
+                genus === 'mc3-objective%3Amc3.learning.generic.outcome%40MIT-OEIT') {
+            return true;
+        } else {
+            return false;
+        }
+    };
+
     _auth.prompt_user_with_similar_terms = function (terms, ele) {
         var counter = terms.length;
         var target = $($(ele).closest('.body').context)
@@ -161,7 +242,9 @@ var MC3AUTH = (function(window, document, $, _auth, undefined) {
         var defs = $('dl.mc3definition.aloha-oer-block');
         $.each(defs, function (index, def) {
             var obj = _auth.construct_objective(def);
-            MC3UTILS.send_authorized_ajax(obj, def);
+            if (!_auth.obj_is_incomplete(obj)) {
+                MC3UTILS.send_authorized_ajax(obj, def);
+            }
         });
     };
 

@@ -16,6 +16,9 @@ $(document).ready(function() {
     $('#bank_selector').on('change', function(e) {
         var raw_data = $(this).select2('data');
         MC3AUTH.set_active_bank(raw_data.id);
+        // Need to refresh the bank URLs for these,
+        // if they are present on the page already
+        MC3AUTH.init_outcome_selectors();
     });
 
     $('#host_selector').on('change', function(e) {
