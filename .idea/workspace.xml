@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42aeaef9-b153-44a7-a98b-619955900ba9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aloha/static/js/plugins/mc3/mc3activity/css/mc3activity-plugin.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aloha/static/js/plugins/mc3/mc3activity/lib/mc3activity-plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aloha/static/js/plugins/mc3/oea/img/warning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aloha/static/js/plugins/mc3/oea/lib/oea-plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aloha/static/js/plugins/mc3/oea/css/oea.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/aloha/dashboard.html" afterPath="$PROJECT_DIR$/templates/aloha/dashboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aloha/static/js/bindings/dashboard.js" afterPath="$PROJECT_DIR$/aloha/static/js/bindings/dashboard.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aloha/static/js/controllers/dashboard.js" afterPath="$PROJECT_DIR$/aloha/static/js/controllers/dashboard.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aloha/static/js/plugins/mc3/mc3definition/css/mc3definition-plugin.css" afterPath="$PROJECT_DIR$/aloha/static/js/plugins/mc3/mc3definition/css/mc3definition-plugin.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aloha/static/js/plugins/mc3/mc3definition/lib/mc3definition-plugin.js" afterPath="$PROJECT_DIR$/aloha/static/js/plugins/mc3/mc3definition/lib/mc3definition-plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aloha/static/css/style.css" afterPath="$PROJECT_DIR$/aloha/static/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mc3_aloha.iws" />
@@ -32,37 +31,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aloha/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="115" column="50" selection-start="3721" selection-end="3721" vertical-scroll-proportion="0.0" vertical-offset="2070" max-vertical-offset="2286">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mc3definition-plugin.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aloha/static/js/plugins/mc3/mc3definition/lib/mc3definition-plugin.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="176" selection-start="185" selection-end="233" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1404">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="dashboard.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/aloha/dashboard.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="130" column="30" selection-start="8145" selection-end="8145" vertical-scroll-proportion="-4.2222223" vertical-offset="2226" max-vertical-offset="4158">
+            <state line="219" column="35" selection-start="11989" selection-end="11989" vertical-scroll-proportion="-84.22222" vertical-offset="1668" max-vertical-offset="4230">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mc3definition-plugin.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aloha/static/js/plugins/mc3/mc3definition/css/mc3definition-plugin.css">
+      <file leaf-file-name="oea-plugin.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/aloha/static/js/plugins/mc3/oea/lib/oea-plugin.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="33" selection-start="349" selection-end="357" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="666">
+            <state line="83" column="47" selection-start="3613" selection-end="3613" vertical-scroll-proportion="0.86764705" vertical-offset="1140" max-vertical-offset="3870">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="oea.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aloha/static/js/plugins/mc3/oea/css/oea.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="21" selection-start="570" selection-end="570" vertical-scroll-proportion="-2.9444444" vertical-offset="417" max-vertical-offset="846">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aloha/static/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="68" column="10" selection-start="1177" selection-end="1177" vertical-scroll-proportion="0.0" vertical-offset="957" max-vertical-offset="1458">
               <folding />
             </state>
           </provider>
@@ -71,7 +70,7 @@
       <file leaf-file-name="dashboard.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aloha/static/js/bindings/dashboard.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="11" selection-start="620" selection-end="620" vertical-scroll-proportion="0.0" vertical-offset="98" max-vertical-offset="3294">
+            <state line="19" column="11" selection-start="620" selection-end="620" vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="3294">
               <folding />
             </state>
           </provider>
@@ -80,25 +79,7 @@
       <file leaf-file-name="dashboard.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aloha/static/js/controllers/dashboard.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="23" selection-start="591" selection-end="591" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5256">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mc3activity-plugin.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aloha/static/js/plugins/mc3/mc3activity/css/mc3activity-plugin.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="4" selection-start="590" selection-end="590" vertical-scroll-proportion="0.0" vertical-offset="98" max-vertical-offset="576">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mc3activity-plugin.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/aloha/static/js/plugins/mc3/mc3activity/lib/mc3activity-plugin.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="102" column="11" selection-start="4252" selection-end="4252" vertical-scroll-proportion="0.60583943" vertical-offset="1587" max-vertical-offset="3600">
+            <state line="245" column="48" selection-start="8475" selection-end="8475" vertical-scroll-proportion="0.0" vertical-offset="4054" max-vertical-offset="5400">
               <folding />
             </state>
           </provider>
@@ -107,7 +88,7 @@
       <file leaf-file-name="mc3_auth_utils.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aloha/static/js/controllers/mc3_auth_utils.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="6" selection-start="1124" selection-end="1124" vertical-scroll-proportion="0.0" vertical-offset="2924" max-vertical-offset="3348">
+            <state line="34" column="6" selection-start="1124" selection-end="1124" vertical-scroll-proportion="0.0" vertical-offset="864" max-vertical-offset="3348">
               <folding />
             </state>
           </provider>
@@ -131,10 +112,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/templates/aloha/base_menu.html" />
-        <option value="$PROJECT_DIR$/templates/sandbox/index.html" />
-        <option value="$PROJECT_DIR$/aloha/aloha_utils.py" />
-        <option value="$PROJECT_DIR$/auth_wrapper/settings_credentials.py" />
         <option value="$PROJECT_DIR$/aloha/static/js/plugins/mc3/mc3definition/lib/mc3definition-plugin.coffee" />
         <option value="$PROJECT_DIR$/aloha/urls.py" />
         <option value="$PROJECT_DIR$/aloha/views.py" />
@@ -142,18 +119,22 @@
         <option value="$PROJECT_DIR$/aloha/static/js/controllers/mc3_auth_utils.js" />
         <option value="$PROJECT_DIR$/aloha/static/js/plugins/mc3/mc3definition/lib/mc3definition-plugin.js" />
         <option value="$PROJECT_DIR$/aloha/static/js/plugins/mc3/mc3definition/css/mc3definition-plugin.css" />
-        <option value="$PROJECT_DIR$/templates/aloha/dashboard.html" />
         <option value="$PROJECT_DIR$/aloha/static/js/plugins/mc3/mc3activity/css/mc3activity-plugin.css" />
         <option value="$PROJECT_DIR$/aloha/static/js/bindings/dashboard.js" />
-        <option value="$PROJECT_DIR$/aloha/static/js/controllers/dashboard.js" />
         <option value="$PROJECT_DIR$/aloha/static/js/plugins/mc3/mc3activity/lib/mc3activity-plugin.js" />
+        <option value="$PROJECT_DIR$/templates/aloha/dashboard.html" />
+        <option value="$PROJECT_DIR$/aloha/static/js/plugins/oer/image/lib/image-plugin.js" />
+        <option value="$PROJECT_DIR$/aloha/static/js/controllers/dashboard.js" />
+        <option value="$PROJECT_DIR$/aloha/static/js/plugins/mc3/oea/css/oea.css" />
+        <option value="$PROJECT_DIR$/aloha/static/css/style.css" />
+        <option value="$PROJECT_DIR$/aloha/static/js/plugins/mc3/oea/lib/oea-plugin.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1440" />
-    <option name="height" value="824" />
+    <option name="height" value="823" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -181,6 +162,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -359,117 +341,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="oer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mc3_aloha" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mc3_aloha" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aloha" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mc3_aloha" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mc3_aloha" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aloha" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="mc3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mc3definition" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mc3_aloha" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mc3_aloha" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aloha" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mc3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mc3activity" />
+              <option name="myItemId" value="oea" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -507,11 +383,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mc3activity" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="oea" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -537,7 +409,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mc3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -560,36 +436,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mc3_aloha" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mc3_aloha" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aloha" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bindings" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -635,18 +481,17 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="preferences.fileTypes" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Browser_Extension/Version_20130919/MC3BA" />
+    <property name="options.lastSelected" value="preferences.fileTypes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../i2002/VideoSearch" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -655,11 +500,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/aloha/static/js/plugins/mc3/oea/lib" />
+      <recent name="$PROJECT_DIR$/aloha/static/js/plugins/mc3/oea/css" />
+      <recent name="$PROJECT_DIR$/aloha/static/js/plugins/mc3/oea" />
       <recent name="$PROJECT_DIR$/aloha/static/js/plugins/mc3/mc3activity/css" />
       <recent name="$PROJECT_DIR$/aloha/static/js/plugins/mc3/mc3activity/lib" />
-      <recent name="$PROJECT_DIR$/aloha/static/js/plugins/mc3" />
-      <recent name="$PROJECT_DIR$/aloha/static/js/plugins/mc3/mc3definition/lib" />
-      <recent name="$PROJECT_DIR$/aloha/static/js/plugins/mc3/mc3definition/css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/aloha/static/img" />
@@ -754,7 +599,27 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="mc3_aloha" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
@@ -780,27 +645,7 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="mc3_aloha" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
-      <option name="host" value="" />
-      <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
-      <option name="runTestServer" value="false" />
-      <option name="runNoReload" value="false" />
-      <option name="useCustomRunCommand" value="false" />
-      <option name="customRunCommand" value="" />
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -899,7 +744,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="824" extended-state="6" />
+    <frame x="0" y="22" width="1440" height="823" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -907,11 +752,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24930556" sideWeight="0.65157753" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24930556" sideWeight="0.65247256" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3484225" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34752747" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -934,61 +779,14 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/aloha/static/js/plugins/oer/definition/lib/definition-plugin.js">
+    <entry file="file://$PROJECT_DIR$/aloha/static/js/plugins/oer/example/lib/example-plugin.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="0" selection-start="1989" selection-end="1989" vertical-scroll-proportion="0.0" vertical-offset="522" max-vertical-offset="936" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aloha/static/js/plugins/mc3/mc3definition/lib/mc3definition-plugin.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="53" selection-start="182" selection-end="182" vertical-scroll-proportion="-5.76" vertical-offset="0" max-vertical-offset="1332" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aloha/static/js/lib/aloha-settings.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="20" selection-start="2195" selection-end="2195" vertical-scroll-proportion="0.8095238" vertical-offset="918" max-vertical-offset="1548" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aloha/static/css/aloha_wrapper.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="18" selection-start="1411" selection-end="1411" vertical-scroll-proportion="0.0" vertical-offset="1620" max-vertical-offset="2196">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aloha/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="24" selection-start="765" selection-end="765" vertical-scroll-proportion="-21.6" vertical-offset="0" max-vertical-offset="738">
-          <folding>
-            <element signature="e#0#51#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3762" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/aloha/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="115" column="50" selection-start="3721" selection-end="3721" vertical-scroll-proportion="0.0" vertical-offset="2070" max-vertical-offset="2286">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aloha/static/js/plugins/oer/exercise/lib/exercise-plugin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2862">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aloha/static/js/plugins/oer/example/lib/example-plugin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3762">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/aloha/dashboard.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="130" column="30" selection-start="8145" selection-end="8145" vertical-scroll-proportion="-4.2222223" vertical-offset="2226" max-vertical-offset="4158">
           <folding />
         </state>
       </provider>
@@ -1000,9 +798,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/aloha/static/js/plugins/mc3/mc3activity/css/mc3activity-plugin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="4" selection-start="590" selection-end="590" vertical-scroll-proportion="0.0" vertical-offset="98" max-vertical-offset="576">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aloha/static/js/plugins/mc3/oea/img/warning.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aloha/static/js/plugins/oer/image/lib/image-plugin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="33" selection-start="222" selection-end="222" vertical-scroll-proportion="0.2189781" vertical-offset="18" max-vertical-offset="3582">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aloha/static/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="107136">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aloha/static/js/plugins/mc3/mc3activity/lib/mc3activity-plugin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="109" column="57" selection-start="4533" selection-end="4575" vertical-scroll-proportion="0.0" vertical-offset="792" max-vertical-offset="3600">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/aloha/static/js/plugins/mc3/mc3definition/lib/mc3definition-plugin.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="176" selection-start="185" selection-end="233" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1404">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/aloha/dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="219" column="35" selection-start="11989" selection-end="11989" vertical-scroll-proportion="-84.22222" vertical-offset="1668" max-vertical-offset="4230">
           <folding />
         </state>
       </provider>
@@ -1014,9 +852,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aloha/static/js/plugins/mc3/mc3activity/css/mc3activity-plugin.css">
+    <entry file="file://$PROJECT_DIR$/aloha/static/js/controllers/dashboard.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="4" selection-start="590" selection-end="590" vertical-scroll-proportion="0.0" vertical-offset="98" max-vertical-offset="576">
+        <state line="245" column="48" selection-start="8475" selection-end="8475" vertical-scroll-proportion="0.0" vertical-offset="4054" max-vertical-offset="5400">
           <folding />
         </state>
       </provider>
@@ -1028,16 +866,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aloha/static/js/controllers/dashboard.js">
+    <entry file="file://$PROJECT_DIR$/aloha/static/js/plugins/mc3/oea/css/oea.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="23" selection-start="591" selection-end="591" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5256">
+        <state line="32" column="21" selection-start="570" selection-end="570" vertical-scroll-proportion="-2.9444444" vertical-offset="417" max-vertical-offset="846">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aloha/static/js/plugins/mc3/mc3activity/lib/mc3activity-plugin.js">
+    <entry file="file://$PROJECT_DIR$/aloha/static/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="11" selection-start="4252" selection-end="4252" vertical-scroll-proportion="0.60583943" vertical-offset="1587" max-vertical-offset="3600">
+        <state line="68" column="10" selection-start="1177" selection-end="1177" vertical-scroll-proportion="0.0" vertical-offset="957" max-vertical-offset="1458">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aloha/static/js/plugins/mc3/oea/lib/oea-plugin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="47" selection-start="3613" selection-end="3613" vertical-scroll-proportion="0.86764705" vertical-offset="1140" max-vertical-offset="3870">
           <folding />
         </state>
       </provider>

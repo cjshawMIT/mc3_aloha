@@ -9,8 +9,12 @@ var MC3AUTH = (function(window, document, $, _auth, undefined) {
                 .attr('value', '');
         var wrapper = $('<div></div>')
                 .addClass('mc3activity_outcome_link')
-                .append('<span>For: </span>')
-                .append(selector);
+                .append('<span>Link to: </span>');
+        if (_auth.get_active_bank() !== '') {
+            wrapper.append(selector);
+        } else {
+            wrapper.append('<span class="red">Please pick an MC3 Objective Bank, first.</span>');
+        }
         parent.append(wrapper);
         _auth.init_outcome_selectors();
         return wrapper;
@@ -236,6 +240,10 @@ var MC3AUTH = (function(window, document, $, _auth, undefined) {
                 });
             }
         });
+    };
+
+    _auth.remove_outcomes_selector = function () {
+        $('.mc3activity_outcome_link').remove();
     };
 
     _auth.save_definitions_to_mc3 = function () {
