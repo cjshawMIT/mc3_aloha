@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42aeaef9-b153-44a7-a98b-619955900ba9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aloha/static/js/plugins/mc3/mc3activity/css/select2-spinner.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aloha/static/js/plugins/mc3/mc3activity/css/select2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aloha/static/js/plugins/mc3/mc3activity/css/select2x2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aloha/static/js/plugins/mc3/mc3activity/css/select2.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aloha/static/js/plugins/mc3/mc3activity/lib/select2.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aloha/static/js/plugins/mc3/mc3activity/lib/mc3activity-plugin.js" afterPath="$PROJECT_DIR$/aloha/static/js/plugins/mc3/mc3activity/lib/mc3activity-plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aloha/static/js/plugins/mc3/oea/lib/oea-plugin.js" afterPath="$PROJECT_DIR$/aloha/static/js/plugins/mc3/oea/lib/oea-plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aloha/static/js/plugins/mc3/oea/css/oea.css" afterPath="$PROJECT_DIR$/aloha/static/js/plugins/mc3/oea/css/oea.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aloha/static/css/style.css" afterPath="$PROJECT_DIR$/aloha/static/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mc3_aloha.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -100,7 +91,7 @@
       <file leaf-file-name="mc3activity-plugin.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/aloha/static/js/plugins/mc3/mc3activity/lib/mc3activity-plugin.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="24" selection-start="1414" selection-end="1414" vertical-scroll-proportion="0.46753246" vertical-offset="414" max-vertical-offset="5112">
+            <state line="9" column="12" selection-start="244" selection-end="244" vertical-scroll-proportion="0.37402597" vertical-offset="18" max-vertical-offset="5112">
               <folding />
             </state>
           </provider>
@@ -1071,7 +1062,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/aloha/static/js/plugins/mc3/mc3activity/lib/mc3activity-plugin.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="24" selection-start="1414" selection-end="1414" vertical-scroll-proportion="0.46753246" vertical-offset="414" max-vertical-offset="5112">
+        <state line="9" column="12" selection-start="244" selection-end="244" vertical-scroll-proportion="0.37402597" vertical-offset="18" max-vertical-offset="5112">
           <folding />
         </state>
       </provider>

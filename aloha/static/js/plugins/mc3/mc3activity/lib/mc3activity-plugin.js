@@ -7,10 +7,10 @@
           'ui/ui',
           'ui/button',
           'semanticblock/semanticblock-plugin',
-          '/static/js/plugins/mc3/mc3activity/lib/select2.js',
+          './select2.js',
           'css!../../mc3activity/css/mc3activity-plugin.css',
           'css!../../mc3activity/css/select2.css'],
-          function(Aloha, Plugin, jQuery, Ephemera, UI, Button, semanticBlock) {
+          function(Aloha, Plugin, jQuery, Ephemera, UI, Button, semanticBlock, select2) {
     var TYPE_CONTAINER, exampleishClasses, types, mc3_host, mc3_bank;
     TYPE_CONTAINER = jQuery('<span class="type-container dropdown aloha-ephemera">\n    <span class="type btn-link" href="#" data-toggle="dropdown"></span>\n    <ul class="dropdown-menu">\n    </ul>\n</span>');
     exampleishClasses = {};
