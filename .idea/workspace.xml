@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="42aeaef9-b153-44a7-a98b-619955900ba9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aloha/static/js/plugins/mc3/mc3activity/lib/mc3activity-plugin.js" afterPath="$PROJECT_DIR$/aloha/static/js/plugins/mc3/mc3activity/lib/mc3activity-plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mc3_aloha.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,7 +29,7 @@
       <file leaf-file-name="dashboard.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/aloha/dashboard.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="219" column="35" selection-start="11989" selection-end="11989" vertical-scroll-proportion="-84.22222" vertical-offset="1668" max-vertical-offset="4230">
+            <state line="142" column="46" selection-start="8579" selection-end="8579" vertical-scroll-proportion="-6.888889" vertical-offset="2370" max-vertical-offset="4230">
               <folding />
             </state>
           </provider>
@@ -43,28 +44,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="oea-plugin.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aloha/static/js/plugins/mc3/oea/lib/oea-plugin.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="179" column="56" selection-start="8067" selection-end="8067" vertical-scroll-proportion="26.538462" vertical-offset="3912" max-vertical-offset="4320">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="oea.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aloha/static/js/plugins/mc3/oea/css/oea.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="34" selection-start="697" selection-end="697" vertical-scroll-proportion="-5.9444447" vertical-offset="453" max-vertical-offset="918">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aloha/static/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="18" selection-start="1338" selection-end="1338" vertical-scroll-proportion="0.0" vertical-offset="957" max-vertical-offset="1476">
+            <state line="74" column="18" selection-start="1338" selection-end="1338" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1476">
               <folding />
             </state>
           </provider>
@@ -74,6 +57,15 @@
         <entry file="file://$PROJECT_DIR$/aloha/static/js/bindings/dashboard.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="19" column="11" selection-start="620" selection-end="620" vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="3294">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mc3activity-plugin.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aloha/static/js/plugins/mc3/mc3activity/css/mc3activity-plugin.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="4" selection-start="590" selection-end="590" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="576">
               <folding />
             </state>
           </provider>
@@ -91,7 +83,7 @@
       <file leaf-file-name="mc3activity-plugin.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/aloha/static/js/plugins/mc3/mc3activity/lib/mc3activity-plugin.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="97" column="5" selection-start="3703" selection-end="3703" vertical-scroll-proportion="1.8883117" vertical-offset="1019" max-vertical-offset="5292">
+            <state line="9" column="20" selection-start="252" selection-end="252" vertical-scroll-proportion="0.42077923" vertical-offset="0" max-vertical-offset="5292">
               <folding />
             </state>
           </provider>
@@ -568,32 +560,6 @@
               <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mc3_aloha" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mc3_aloha" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aloha" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -971,13 +937,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aloha/static/js/plugins/mc3/mc3activity/css/mc3activity-plugin.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="4" selection-start="590" selection-end="590" vertical-scroll-proportion="0.0" vertical-offset="98" max-vertical-offset="576">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/aloha/static/js/plugins/mc3/oea/img/warning.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -993,13 +952,6 @@
     <entry file="file://$PROJECT_DIR$/aloha/static/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="107136">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/aloha/dashboard.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="219" column="35" selection-start="11989" selection-end="11989" vertical-scroll-proportion="-84.22222" vertical-offset="1668" max-vertical-offset="4230">
           <folding />
         </state>
       </provider>
@@ -1021,13 +973,6 @@
     <entry file="file://$PROJECT_DIR$/aloha/static/js/plugins/mc3/oea/css/oea.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="34" selection-start="697" selection-end="697" vertical-scroll-proportion="-5.9444447" vertical-offset="453" max-vertical-offset="918">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aloha/static/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="18" selection-start="1338" selection-end="1338" vertical-scroll-proportion="0.0" vertical-offset="957" max-vertical-offset="1476">
           <folding />
         </state>
       </provider>
@@ -1060,9 +1005,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/aloha/dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="142" column="46" selection-start="8579" selection-end="8579" vertical-scroll-proportion="-6.888889" vertical-offset="2370" max-vertical-offset="4230">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aloha/static/js/plugins/mc3/mc3activity/css/mc3activity-plugin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="4" selection-start="590" selection-end="590" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="576">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aloha/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="18" selection-start="1338" selection-end="1338" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1476">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/aloha/static/js/plugins/mc3/mc3activity/lib/mc3activity-plugin.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="5" selection-start="3703" selection-end="3703" vertical-scroll-proportion="1.8883117" vertical-offset="1019" max-vertical-offset="5292">
+        <state line="9" column="20" selection-start="252" selection-end="252" vertical-scroll-proportion="0.42077923" vertical-offset="0" max-vertical-offset="5292">
           <folding />
         </state>
       </provider>

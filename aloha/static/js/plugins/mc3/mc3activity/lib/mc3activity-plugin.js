@@ -7,7 +7,7 @@
           'ui/ui',
           'ui/button',
           'semanticblock/semanticblock-plugin',
-          './select2.js',
+          './select2',
           'css!../../mc3activity/css/mc3activity-plugin.css',
           'css!../../mc3activity/css/select2.css'],
           function(Aloha, Plugin, jQuery, Ephemera, UI, Button, semanticBlock, select2) {
