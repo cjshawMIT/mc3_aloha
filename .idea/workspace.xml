@@ -82,7 +82,7 @@
       <file leaf-file-name="dashboard.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aloha/static/js/controllers/dashboard.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="4" selection-start="1968" selection-end="2195" vertical-scroll-proportion="-6.3076925" vertical-offset="1078" max-vertical-offset="5400">
+            <state line="186" column="10" selection-start="6098" selection-end="6415" vertical-scroll-proportion="-2.8636363" vertical-offset="3222" max-vertical-offset="5400">
               <folding />
             </state>
           </provider>
@@ -91,7 +91,7 @@
       <file leaf-file-name="mc3activity-plugin.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/aloha/static/js/plugins/mc3/mc3activity/lib/mc3activity-plugin.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="12" selection-start="244" selection-end="244" vertical-scroll-proportion="0.37402597" vertical-offset="18" max-vertical-offset="5112">
+            <state line="97" column="5" selection-start="3703" selection-end="3703" vertical-scroll-proportion="1.8883117" vertical-offset="1019" max-vertical-offset="5292">
               <folding />
             </state>
           </provider>
@@ -135,10 +135,10 @@
         <option value="$PROJECT_DIR$/aloha/static/js/bindings/dashboard.js" />
         <option value="$PROJECT_DIR$/templates/aloha/dashboard.html" />
         <option value="$PROJECT_DIR$/aloha/static/js/plugins/oer/image/lib/image-plugin.js" />
-        <option value="$PROJECT_DIR$/aloha/static/js/controllers/dashboard.js" />
         <option value="$PROJECT_DIR$/aloha/static/js/plugins/mc3/oea/css/oea.css" />
         <option value="$PROJECT_DIR$/aloha/static/css/style.css" />
         <option value="$PROJECT_DIR$/aloha/static/js/plugins/mc3/oea/lib/oea-plugin.js" />
+        <option value="$PROJECT_DIR$/aloha/static/js/controllers/dashboard.js" />
         <option value="$PROJECT_DIR$/aloha/static/js/plugins/mc3/mc3activity/lib/mc3activity-plugin.js" />
       </list>
     </option>
@@ -1046,6 +1046,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/aloha/static/js/controllers/dashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="186" column="10" selection-start="6098" selection-end="6415" vertical-scroll-proportion="-2.8636363" vertical-offset="3222" max-vertical-offset="5400">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/aloha/static/js/plugins/mc3/mc3definition/lib/mc3definition-plugin.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="176" selection-start="185" selection-end="233" vertical-scroll-proportion="0.0" vertical-offset="273" max-vertical-offset="1404">
@@ -1053,16 +1060,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aloha/static/js/controllers/dashboard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="4" selection-start="1968" selection-end="2195" vertical-scroll-proportion="-6.3076925" vertical-offset="1078" max-vertical-offset="5400">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/aloha/static/js/plugins/mc3/mc3activity/lib/mc3activity-plugin.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="12" selection-start="244" selection-end="244" vertical-scroll-proportion="0.37402597" vertical-offset="18" max-vertical-offset="5112">
+        <state line="97" column="5" selection-start="3703" selection-end="3703" vertical-scroll-proportion="1.8883117" vertical-offset="1019" max-vertical-offset="5292">
           <folding />
         </state>
       </provider>

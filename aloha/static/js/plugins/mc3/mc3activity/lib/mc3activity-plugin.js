@@ -63,7 +63,7 @@
                             obj_name = obj_name.toLowerCase();
 
                             if (obj_name.indexOf(search_term) >= 0 &&
-                                    _auth.obj_is_outcome(obj)) {
+                                    obj_is_outcome(obj)) {
                                 filtered_objs.push(obj);
                             }
                         });
@@ -85,6 +85,16 @@
                 return obj.displayName.text;
             }
         });
+    }
+
+    function obj_is_outcome (obj) {
+        var genus = obj.genusTypeId;
+        if (genus === 'mc3-objective%3Amc3.learning.outcome%40MIT-OEIT' ||
+                genus === 'mc3-objective%3Amc3.learning.generic.outcome%40MIT-OEIT') {
+            return true;
+        } else {
+            return false;
+        }
     }
 
     return Plugin.create('mc3activity', {
