@@ -66,10 +66,11 @@
     bottom: inherit;
     width: 75%;
     left: 12.5%;
-    top: 5%;
+    top: 2.5%;
     overflow-y: inherit;
     border: 1px solid #DEDEDE;
     border-radius:6px;
     -webkit-border-radius:6px;
     -moz-border-radius:6px;
+    max-height: 95%;
 }

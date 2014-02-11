@@ -40,3 +40,7 @@ div.search-tab {
 div.oea-options {
     margin-bottom: 15px;
 }
+
+input[type='text'].ui-autocomplete-loading {
+    background: url('/static/img/ui-anim_basic_16x16.gif') no-repeat right center;
+}

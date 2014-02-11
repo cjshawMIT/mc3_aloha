@@ -81,7 +81,10 @@ function(Aloha, plugin, $, Ui, Button, PubSub) {
             };
             var $modal = $('.plugin.oea');
             $modal.on('hidden.bs.modal', function () {
-                $('.oea-placeholder').remove();
+                if ($('.oea-placeholder').length > 0) {
+                    plugin._resetModalForms();
+                    $('.oea-placeholder').remove();
+                }
             });
         },
         _createDialog: function(){
@@ -133,6 +136,7 @@ function(Aloha, plugin, $, Ui, Button, PubSub) {
         },
         _createoeaButton: undefined,
         _initOEASearch: function() {
+            var plugin = this;
             $( "#oea_search" ).autocomplete({
                 source: function( request, response ) {
                     $.ajax({
@@ -142,18 +146,38 @@ function(Aloha, plugin, $, Ui, Button, PubSub) {
                             q: request.term
                         },
                         success: function(data) {
-                            response($.map(data.assessments, function(item) {
-                                return {
-                                    label: item.name + (item.name ? ", " + item.name : "") + ", " + item.name,
-                                    value: item.name
-                                }
-                            }));
+                            if (data.assessments.length > 0) {
+                                $('.plugin.oea').find('.placeholder.preview')
+                                        .text('')
+                                        .hide();
+                                response($.map(data.assessments, function(item) {
+                                    var i = item.assessments,
+                                            url = 'http://www.openassessments.com/users/' +
+                                                    i.user_id + '/assessments/' + i.id;
+                                    return {
+                                        label: i.title,
+                                        value: url
+                                    }
+                                }));
+                            } else {
+                                $('.plugin.oea').find('.placeholder.preview')
+                                        .text('Nothing found for: ' + term + '.')
+                                        .show();
+                            }
                         }
                     });
                 },
                 minLength: 2,
                 select: function( event, ui ) {
-                    plugin._setPreview(ui.item);
+                    plugin._getOembed(ui.item.value, function (results) {
+                        plugin._setPreview(results);
+                    });
+                    event.preventDefault();
+                    $('#oea_search').val(ui.item.label);
+                },
+                focus: function (event, ui) {
+                    event.preventDefault();
+                    $('#oea_search').val(ui.item.label);
                 },
                 open: function() {
                     $( this ).removeClass( "ui-corner-all" ).addClass( "ui-corner-top" );
@@ -179,7 +203,8 @@ function(Aloha, plugin, $, Ui, Button, PubSub) {
             });
         },
         _setPreview: function (ele) {
-            $('.placeholder.preview').html(ele.html)
+            $('.placeholder.preview').empty()
+                    .html(ele.html)
                     .show();
         },
         _initSearchTabs: function () {
